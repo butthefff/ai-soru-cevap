@@ -1,0 +1,1664 @@
+[
+  {
+    "id": "q001",
+    "sourceTurn": 1,
+    "originalQuestion": "eşleştir",
+    "originalAnswer": "\"An AI agent tracks user preferences and adjusts recommendations over time, ensuring suggestions stay relevant based on past behavior.\" (Kullanıcı tercihlerini izleyen ve geçmiş davranışlara göre önerileri güncelleyen yapay zeka) ➔ Personalization\n\"An AI agent processes user queries, provides responses, and learns from past interactions to improve future assistance.\" (Kullanıcı sorgularını işleyen, yanıtlayan ve gelecekteki yardımı iyileştirmek için öğrenen yapay zeka) ➔ Virtual assistants\n\"An AI agent reviews job applications, ranks candidates based on qualifications, and refines hiring recommendations over time.\" (İş başvurularını inceleyen ve adayları niteliklerine göre sıralayan yapay zeka) ➔ Resume screening\n\"An AI agent identifies unusual patterns and anomalies in real time, helping businesses identify deceitful activities and promote secure transactions.\" (Gerçek zamanlı olarak olağandışı kalıpları tespit edip dolandırıcılık faaliyetlerini belirleyen yapay zeka) ➔ Fraud monitoring\n\"An AI agent scans patient records and medical images, identifying key patterns to assist doctors in diagnosis and treatment planning.\" (Teşhis ve tedaviye yardımcı olmak için hasta kayıtlarını ve tıbbi görüntüleri tarayan yapay zeka) ➔ Medical imaging analysis",
+    "images": [
+      "assets/gorseller/gorsel-01.png"
+    ],
+    "answer": "\"An AI agent tracks user preferences and adjusts recommendations over time, ensuring suggestions stay relevant based on past behavior.\" (Kullanıcı tercihlerini izleyen ve geçmiş davranışlara göre önerileri güncelleyen yapay zeka) ➔ Personalization\n\"An AI agent processes user queries, provides responses, and learns from past interactions to improve future assistance.\" (Kullanıcı sorgularını işleyen, yanıtlayan ve gelecekteki yardımı iyileştirmek için öğrenen yapay zeka) ➔ Virtual assistants\n\"An AI agent reviews job applications, ranks candidates based on qualifications, and refines hiring recommendations over time.\" (İş başvurularını inceleyen ve adayları niteliklerine göre sıralayan yapay zeka) ➔ Resume screening\n\"An AI agent identifies unusual patterns and anomalies in real time, helping businesses identify deceitful activities and promote secure transactions.\" (Gerçek zamanlı olarak olağandışı kalıpları tespit edip dolandırıcılık faaliyetlerini belirleyen yapay zeka) ➔ Fraud monitoring\n\"An AI agent scans patient records and medical images, identifying key patterns to assist doctors in diagnosis and treatment planning.\" (Teşhis ve tedaviye yardımcı olmak için hasta kayıtlarını ve tıbbi görüntüleri tarayan yapay zeka) ➔ Medical imaging analysis",
+    "kind": "Eşleştirme",
+    "items": [
+      "An AI agent tracks user preferences and adjusts recommendations over time, ensuring suggestions stay relevant based on past behavior.",
+      "An AI agent processes user queries, provides responses, and learns from past interactions to improve future assistance.",
+      "An AI agent reviews job applications, ranks candidates based on qualifications, and refines hiring recommendations over time.",
+      "An AI agent identifies unusual patterns and anomalies in real time, helping businesses identify deceitful activities and promote secure transactions.",
+      "An AI agent scans patient records and medical images, identifying key patterns to assist doctors in diagnosis and treatment planning."
+    ],
+    "options": [
+      "Personalization",
+      "Fraud monitoring",
+      "Virtual assistants",
+      "Medical imaging analysis",
+      "Resume screening"
+    ],
+    "title": "AI agents: eşleştirme",
+    "question": "Match each AI agent scenario to its use case.",
+    "transcribed": true,
+    "pairs": [
+      {
+        "prompt": "An AI agent tracks user preferences and adjusts recommendations over time, ensuring suggestions stay relevant based on past behavior.",
+        "answer": "Personalization"
+      },
+      {
+        "prompt": "An AI agent processes user queries, provides responses, and learns from past interactions to improve future assistance.",
+        "answer": "Virtual assistants"
+      },
+      {
+        "prompt": "An AI agent reviews job applications, ranks candidates based on qualifications, and refines hiring recommendations over time.",
+        "answer": "Resume screening"
+      },
+      {
+        "prompt": "An AI agent identifies unusual patterns and anomalies in real time, helping businesses identify deceitful activities and promote secure transactions.",
+        "answer": "Fraud monitoring"
+      },
+      {
+        "prompt": "An AI agent scans patient records and medical images, identifying key patterns to assist doctors in diagnosis and treatment planning.",
+        "answer": "Medical imaging analysis"
+      }
+    ]
+  },
+  {
+    "id": "q002",
+    "sourceTurn": 2,
+    "originalQuestion": "",
+    "originalAnswer": "Goal-based AI agents (Hedefe dayalı yapay zeka ajanları)\n\n\"An AI agent in a warehouse determines the most efficient path for robotic pickers to retrieve and pack items, ensuring timely order fulfillment.\"\n\"An AI agent in a quality control system inspects manufactured products and automatically removes defective items to maintain production standards.\"\nUtility-based AI agents (Faydaya dayalı yapay zeka ajanları)\n\n\"A ride-hailing AI agent dynamically adjusts fares based on demand, traffic conditions, and availability, ensuring an optimal balance between driver earnings and customer affordability.\"\n\"A financial AI agent evaluates investment portfolios and dynamically reallocates funds based on market trends, risk appetite, and historical performance to maximize returns.\"\nLearning AI agents (Öğrenen yapay zeka ajanları)\n\n\"An AI-driven language-learning platform analyzes how a user interacts with lessons, adjusting difficulty and recommending exercises based on individual progress and learning pace.\"",
+    "images": [
+      "assets/gorseller/gorsel-02.png"
+    ],
+    "answer": "Goal-based AI agents (Hedefe dayalı yapay zeka ajanları)\n\n\"An AI agent in a warehouse determines the most efficient path for robotic pickers to retrieve and pack items, ensuring timely order fulfillment.\"\n\"An AI agent in a quality control system inspects manufactured products and automatically removes defective items to maintain production standards.\"\nUtility-based AI agents (Faydaya dayalı yapay zeka ajanları)\n\n\"A ride-hailing AI agent dynamically adjusts fares based on demand, traffic conditions, and availability, ensuring an optimal balance between driver earnings and customer affordability.\"\n\"A financial AI agent evaluates investment portfolios and dynamically reallocates funds based on market trends, risk appetite, and historical performance to maximize returns.\"\nLearning AI agents (Öğrenen yapay zeka ajanları)\n\n\"An AI-driven language-learning platform analyzes how a user interacts with lessons, adjusting difficulty and recommending exercises based on individual progress and learning pace.\"",
+    "kind": "Eşleştirme",
+    "items": [
+      "An AI agent in a warehouse determines the most efficient path for robotic pickers to retrieve and pack items, ensuring timely order fulfillment.",
+      "A ride-hailing AI agent dynamically adjusts fares based on demand, traffic conditions, and availability, ensuring an optimal balance between driver earnings and customer affordability.",
+      "An AI-driven language-learning platform analyzes how a user interacts with lessons, adjusting difficulty and recommending exercises based on individual progress and learning pace.",
+      "An AI agent in a quality control system inspects manufactured products and automatically removes defective items to maintain production standards.",
+      "A financial AI agent evaluates investment portfolios and dynamically reallocates funds based on market trends, risk appetite, and historical performance to maximize returns."
+    ],
+    "options": [
+      "Goal-based AI agents",
+      "Utility-based AI agents",
+      "Learning AI agents"
+    ],
+    "title": "AI agent türleri",
+    "question": "Match each scenario to the type of AI agent.",
+    "transcribed": true,
+    "pairs": [
+      {
+        "prompt": "An AI agent in a warehouse determines the most efficient path for robotic pickers to retrieve and pack items, ensuring timely order fulfillment.",
+        "answer": "Goal-based AI agents"
+      },
+      {
+        "prompt": "A ride-hailing AI agent dynamically adjusts fares based on demand, traffic conditions, and availability, ensuring an optimal balance between driver earnings and customer affordability.",
+        "answer": "Utility-based AI agents"
+      },
+      {
+        "prompt": "An AI-driven language-learning platform analyzes how a user interacts with lessons, adjusting difficulty and recommending exercises based on individual progress and learning pace.",
+        "answer": "Learning AI agents"
+      },
+      {
+        "prompt": "An AI agent in a quality control system inspects manufactured products and automatically removes defective items to maintain production standards.",
+        "answer": "Goal-based AI agents"
+      },
+      {
+        "prompt": "A financial AI agent evaluates investment portfolios and dynamically reallocates funds based on market trends, risk appetite, and historical performance to maximize returns.",
+        "answer": "Utility-based AI agents"
+      }
+    ]
+  },
+  {
+    "id": "q003",
+    "sourceTurn": 3,
+    "originalQuestion": "",
+    "originalAnswer": "Interpret the environment (Ortamı yorumlama)\n\n\"The AI agent receives a customer inquiry about a missing order through the company’s chatbot.\"\nProcess input data (Girdi verilerini işleme)\n\n\"The AI agent analyzes the request, checks the order status, and verifies the customer’s purchase history.\"\nMake decisions (Karar verme)\n\n\"Based on the available information, the AI agent determines whether to issue a refund, resend the order, or escalate to human support.\"\nPlan and execute an action (Bir eylemi planlama ve yürütme)\n\n\"The AI agent processes the refund, reschedules the delivery, or provides troubleshooting steps to the customer.\"\nLearn and improve (Öğrenme ve gelişme)\n\n\"The AI agent logs the interaction, updates its response database, and refines future solutions based on the feedback.\"",
+    "images": [
+      "assets/gorseller/gorsel-03.png"
+    ],
+    "answer": "Interpret the environment (Ortamı yorumlama)\n\n\"The AI agent receives a customer inquiry about a missing order through the company’s chatbot.\"\nProcess input data (Girdi verilerini işleme)\n\n\"The AI agent analyzes the request, checks the order status, and verifies the customer’s purchase history.\"\nMake decisions (Karar verme)\n\n\"Based on the available information, the AI agent determines whether to issue a refund, resend the order, or escalate to human support.\"\nPlan and execute an action (Bir eylemi planlama ve yürütme)\n\n\"The AI agent processes the refund, reschedules the delivery, or provides troubleshooting steps to the customer.\"\nLearn and improve (Öğrenme ve gelişme)\n\n\"The AI agent logs the interaction, updates its response database, and refines future solutions based on the feedback.\"",
+    "kind": "Eşleştirme",
+    "items": [
+      "The AI agent receives a customer inquiry about a missing order through the company’s chatbot.",
+      "Based on the available information, the AI agent determines whether to issue a refund, resend the order, or escalate to human support.",
+      "The AI agent logs the interaction, updates its response database, and refines future solutions based on the feedback.",
+      "The AI agent analyzes the request, checks the order status, and verifies the customer’s purchase history.",
+      "The AI agent processes the refund, reschedules the delivery, or provides troubleshooting steps to the customer."
+    ],
+    "options": [
+      "Interpret the environment",
+      "Process input data",
+      "Make decisions",
+      "Plan and execute an action",
+      "Learn and improve"
+    ],
+    "title": "AI agent iş akışı",
+    "question": "Match each action to the step in the AI agent workflow.",
+    "transcribed": true,
+    "pairs": [
+      {
+        "prompt": "The AI agent receives a customer inquiry about a missing order through the company’s chatbot.",
+        "answer": "Interpret the environment"
+      },
+      {
+        "prompt": "Based on the available information, the AI agent determines whether to issue a refund, resend the order, or escalate to human support.",
+        "answer": "Make decisions"
+      },
+      {
+        "prompt": "The AI agent logs the interaction, updates its response database, and refines future solutions based on the feedback.",
+        "answer": "Learn and improve"
+      },
+      {
+        "prompt": "The AI agent analyzes the request, checks the order status, and verifies the customer’s purchase history.",
+        "answer": "Process input data"
+      },
+      {
+        "prompt": "The AI agent processes the refund, reschedules the delivery, or provides troubleshooting steps to the customer.",
+        "answer": "Plan and execute an action"
+      }
+    ]
+  },
+  {
+    "id": "q004",
+    "sourceTurn": 4,
+    "originalQuestion": "",
+    "originalAnswer": "Görseldeki soru için doğru cevap Utility-based AI agent seçeneğidir.\nSenaryoda, yapay zeka sisteminin sadece belirli bir hedefe ulaşmakla kalmayıp, bilet fiyatlarını talep, mevsimsellik ve koltuk durumuna göre gerçek zamanlı olarak ayarlayarak hem geliri hem de müşteriler için uygun fiyatı \"optimize ettiği\" belirtilmektedir. Olası durumlar arasında en faydalı (optimum) dengeyi bulmaya çalışan bu tür sistemler faydaya dayalı (utility-based) ajanlar olarak sınıflandırılır.",
+    "images": [
+      "assets/gorseller/gorsel-04.png"
+    ],
+    "answer": "Utility-based AI agent",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Learning AI agent",
+      "Goal-based AI agent",
+      "Rule-based AI system",
+      "Utility-based AI agent"
+    ],
+    "title": "Airline pricing",
+    "question": "An airline uses an AI system that dynamically adjusts ticket prices based on demand, seasonality, and seat availability. Prices fluctuate in real time to optimize both revenue and customer affordability.\nWhat type of AI agent is used in this scenario?",
+    "transcribed": true
+  },
+  {
+    "id": "q006",
+    "sourceTurn": 6,
+    "originalQuestion": "",
+    "originalAnswer": "Personalization",
+    "images": [
+      "assets/gorseller/gorsel-05.png"
+    ],
+    "answer": "Personalization",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Process automation",
+      "Virtual assistance",
+      "Personalization",
+      "Fraud detection"
+    ],
+    "title": "Streaming recommendations",
+    "question": "A streaming platform aims to enhance user experience by offering content suggestions tailored to individual tastes. The AI agent analyzes watch history, user preferences, and interaction patterns to refine its recommendations over time.\nWhich use case of AI agents does this example illustrate?",
+    "transcribed": true
+  },
+  {
+    "id": "q007",
+    "sourceTurn": 7,
+    "originalQuestion": "An education platform uses an AI agent to customize learning experiences for students based on their progress. It detects areas where a student struggles, adjusts explanations, and modifies lesson difficulty in response to performance.\nWhich type of AI agent is used by this education platform?\nUtility-based AI agent\nLearning AI agent\nGoal-based AI agent\nReactive AI system",
+    "originalAnswer": "Learning AI agent",
+    "images": [],
+    "answer": "Learning AI agent",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Utility-based AI agent",
+      "Learning AI agent",
+      "Goal-based AI agent",
+      "Reactive AI system"
+    ],
+    "question": "An education platform uses an AI agent to customize learning experiences for students based on their progress. It detects areas where a student struggles, adjusts explanations, and modifies lesson difficulty in response to performance.\nWhich type of AI agent is used by this education platform?",
+    "title": "Adaptive learning"
+  },
+  {
+    "id": "q008",
+    "sourceTurn": 8,
+    "originalQuestion": "A self-driving car continuously monitors road conditions and changing traffic patterns throughout the day. Over time, it becomes more efficient at anticipating congestion and adjusting routes to avoid delays.\nWhich step in the AI agent workflow helps it improve performance over time?\nMake decisions\nExecute an action\nInterpret the environment\nLearn and improve",
+    "originalAnswer": "Learn and improve",
+    "images": [],
+    "answer": "Learn and improve",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Make decisions",
+      "Execute an action",
+      "Interpret the environment",
+      "Learn and improve"
+    ],
+    "question": "A self-driving car continuously monitors road conditions and changing traffic patterns throughout the day. Over time, it becomes more efficient at anticipating congestion and adjusting routes to avoid delays.\nWhich step in the AI agent workflow helps it improve performance over time?",
+    "title": "Improving a self-driving car"
+  },
+  {
+    "id": "q009",
+    "sourceTurn": 9,
+    "originalQuestion": "An AI agent email filtering system receives incoming messages and examines the content, sender information, and message structure to determine if an email is spam or legitimate.\nWhich step is the AI agent performing in this scenario?\nLearn and improve\nProcess input data\nPlan and execute an action\nInterpret the environment",
+    "originalAnswer": "Process input data",
+    "images": [],
+    "answer": "Process input data",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Learn and improve",
+      "Process input data",
+      "Plan and execute an action",
+      "Interpret the environment"
+    ],
+    "question": "An AI agent email filtering system receives incoming messages and examines the content, sender information, and message structure to determine if an email is spam or legitimate.\nWhich step is the AI agent performing in this scenario?",
+    "title": "Email filtering workflow"
+  },
+  {
+    "id": "q010",
+    "sourceTurn": 10,
+    "originalQuestion": "Which of the following best defines AI?\nA system that automates complex tasks based on predefined rules\nA technology that processes large amounts of data and generates insights\nA technology that allows machines to mimic human-like intelligence, including problem solving and decision making\nA system designed to physically replicate human movement and interactions",
+    "originalAnswer": "A technology that allows machines to mimic human-like intelligence, including problem solving and decision making",
+    "images": [],
+    "answer": "A technology that allows machines to mimic human-like intelligence, including problem solving and decision making",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "A system that automates complex tasks based on predefined rules",
+      "A technology that processes large amounts of data and generates insights",
+      "A technology that allows machines to mimic human-like intelligence, including problem solving and decision making",
+      "A system designed to physically replicate human movement and interactions"
+    ],
+    "question": "Which of the following best defines AI?",
+    "title": "What is AI?"
+  },
+  {
+    "id": "q011",
+    "sourceTurn": 11,
+    "originalQuestion": "Arrange the following steps in the correct order to show how AI learns and improves. Select the up or down arrow to move the steps into the correct order. When finished, select Submit. If you answer incorrectly, select Retry to try again.",
+    "originalAnswer": "Here is the correct order for how the AI learns and improves:\n\nAI collects browsing history, past purchases, and user preferences.\nAI identifies trends and relationships in customer behavior.\nAI predicts products a customer might like based on past behaviors.\nAI adjusts recommendations based on customer interactions and feedback.",
+    "images": [
+      "assets/gorseller/gorsel-06.png"
+    ],
+    "answer": "Here is the correct order for how the AI learns and improves:\n\nAI collects browsing history, past purchases, and user preferences.\nAI identifies trends and relationships in customer behavior.\nAI predicts products a customer might like based on past behaviors.\nAI adjusts recommendations based on customer interactions and feedback.",
+    "kind": "Sıralama",
+    "items": [
+      "AI identifies trends and relationships in customer behavior.",
+      "AI collects browsing history, past purchases, and user preferences.",
+      "AI adjusts recommendations based on customer interactions and feedback.",
+      "AI predicts products a customer might like based on past behaviors."
+    ],
+    "options": [],
+    "title": "AI öğrenme sırası",
+    "question": "Arrange the following steps in the correct order to show how AI learns and improves.",
+    "transcribed": true,
+    "orderedAnswer": [
+      "AI collects browsing history, past purchases, and user preferences.",
+      "AI identifies trends and relationships in customer behavior.",
+      "AI predicts products a customer might like based on past behaviors.",
+      "AI adjusts recommendations based on customer interactions and feedback."
+    ]
+  },
+  {
+    "id": "q012",
+    "sourceTurn": 12,
+    "originalQuestion": "A customer service system is designed to handle support tickets. One version follows a strict set of rules, whereas another improves responses based on past interactions.\nWhich statement best describes the key difference between automation and AI?\nAutomation and AI are the same because both increase efficiency.\nAutomation handles physical tasks, whereas AI is used only for decision making.\nAutomation executes tasks based on fixed rules, whereas AI learns and adapts over time.\nAutomation requires human intervention to function, whereas AI operates independently.\nSUBMIT",
+    "originalAnswer": "Automation executes tasks based on fixed rules, whereas AI learns and adapts over time.",
+    "images": [],
+    "answer": "Automation executes tasks based on fixed rules, whereas AI learns and adapts over time.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Automation and AI are the same because both increase efficiency.",
+      "Automation handles physical tasks, whereas AI is used only for decision making.",
+      "Automation executes tasks based on fixed rules, whereas AI learns and adapts over time.",
+      "Automation requires human intervention to function, whereas AI operates independently."
+    ],
+    "question": "A customer service system is designed to handle support tickets. One version follows a strict set of rules, whereas another improves responses based on past interactions.\nWhich statement best describes the key difference between automation and AI?",
+    "title": "Automation versus AI"
+  },
+  {
+    "id": "q013",
+    "sourceTurn": 13,
+    "originalQuestion": "",
+    "originalAnswer": "Generative AI\n\n\"An AI that creates new content such as text, images, and code\"\nPredictive AI\n\n\"An AI that forecasts outcomes based on past data and patterns\"\nDecision-making AI\n\n\"An AI that selects the best action by evaluating multiple factors\"\nComputer vision AI\n\n\"An AI that processes and interprets visual data, such as images and videos\"",
+    "images": [
+      "assets/gorseller/gorsel-07.png"
+    ],
+    "answer": "Generative AI\n\n\"An AI that creates new content such as text, images, and code\"\nPredictive AI\n\n\"An AI that forecasts outcomes based on past data and patterns\"\nDecision-making AI\n\n\"An AI that selects the best action by evaluating multiple factors\"\nComputer vision AI\n\n\"An AI that processes and interprets visual data, such as images and videos\"",
+    "kind": "Eşleştirme",
+    "items": [
+      "An AI that creates new content such as text, images, and code",
+      "An AI that selects the best action by evaluating multiple factors",
+      "An AI that forecasts outcomes based on past data and patterns",
+      "An AI that processes and interprets visual data such as images and videos"
+    ],
+    "options": [
+      "Generative AI",
+      "Predictive AI",
+      "Decision-making AI",
+      "Computer vision AI"
+    ],
+    "title": "AI biçimleri: eşleştirme",
+    "question": "Match each product description to its form of AI.",
+    "transcribed": true,
+    "pairs": [
+      {
+        "prompt": "An AI that creates new content such as text, images, and code",
+        "answer": "Generative AI"
+      },
+      {
+        "prompt": "An AI that selects the best action by evaluating multiple factors",
+        "answer": "Decision-making AI"
+      },
+      {
+        "prompt": "An AI that forecasts outcomes based on past data and patterns",
+        "answer": "Predictive AI"
+      },
+      {
+        "prompt": "An AI that processes and interprets visual data such as images and videos",
+        "answer": "Computer vision AI"
+      }
+    ]
+  },
+  {
+    "id": "q014",
+    "sourceTurn": 14,
+    "originalQuestion": "",
+    "originalAnswer": "Generative AI\n\n\"Ron, the marketing manager, wants AI to create personalized product descriptions.\"\nPredictive AI\n\n\"Aarti, the inventory manager, needs AI to analyze past sales data and forecast demand for different products.\"\nDecision-making AI\n\n\"Ivana, the finance lead, is looking for AI that can assess loan applications and accept them based on multiple factors.\"\nComputer vision AI\n\n\"Vikram, the security head, wants AI to monitor real-time camera footage to enhance store security.\"",
+    "images": [
+      "assets/gorseller/gorsel-08.png"
+    ],
+    "answer": "Generative AI\n\n\"Ron, the marketing manager, wants AI to create personalized product descriptions.\"\nPredictive AI\n\n\"Aarti, the inventory manager, needs AI to analyze past sales data and forecast demand for different products.\"\nDecision-making AI\n\n\"Ivana, the finance lead, is looking for AI that can assess loan applications and accept them based on multiple factors.\"\nComputer vision AI\n\n\"Vikram, the security head, wants AI to monitor real-time camera footage to enhance store security.\"",
+    "kind": "Eşleştirme",
+    "items": [
+      "Ron, the marketing manager, wants AI to create personalized product descriptions.",
+      "Ivana, the finance lead, is looking for AI that can assess loan applications and accept them based on multiple factors.",
+      "Aarti, the inventory manager, needs AI to analyze past sales data and forecast demand for different products.",
+      "Vikram, the security head, wants AI to monitor real-time camera footage to enhance store security."
+    ],
+    "options": [
+      "Generative AI",
+      "Predictive AI",
+      "Decision-making AI",
+      "Computer vision AI"
+    ],
+    "title": "İş ihtiyaçları ve AI",
+    "question": "Match each requirement to its form of AI.",
+    "transcribed": true,
+    "pairs": [
+      {
+        "prompt": "Ron, the marketing manager, wants AI to create personalized product descriptions.",
+        "answer": "Generative AI"
+      },
+      {
+        "prompt": "Ivana, the finance lead, is looking for AI that can assess loan applications and accept them based on multiple factors.",
+        "answer": "Decision-making AI"
+      },
+      {
+        "prompt": "Aarti, the inventory manager, needs AI to analyze past sales data and forecast demand for different products.",
+        "answer": "Predictive AI"
+      },
+      {
+        "prompt": "Vikram, the security head, wants AI to monitor real-time camera footage to enhance store security.",
+        "answer": "Computer vision AI"
+      }
+    ]
+  },
+  {
+    "id": "q015",
+    "sourceTurn": 15,
+    "originalQuestion": "",
+    "originalAnswer": "Machine learning (ML)",
+    "images": [
+      "assets/gorseller/gorsel-09.png"
+    ],
+    "answer": "Machine learning (ML)",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Machine learning (ML)",
+      "Deep learning (DL)",
+      "Natural language processing (NLP)"
+    ],
+    "title": "Predicting support needs",
+    "question": "Aura needs to analyze past customer interactions and predict the support users might need.\nWhat enabling technology will help?",
+    "transcribed": true
+  },
+  {
+    "id": "q016",
+    "sourceTurn": 16,
+    "originalQuestion": "",
+    "originalAnswer": "Deep learning (DL)",
+    "images": [
+      "assets/gorseller/gorsel-10.png"
+    ],
+    "answer": "Deep learning (DL)",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Deep learning (DL)",
+      "Natural language processing (NLP)",
+      "Machine learning (ML)"
+    ],
+    "title": "Faces and speech",
+    "question": "Aura needs to recognize faces from security footage and transcribe recorded phone calls.\nWhat enabling technology will help?",
+    "transcribed": true
+  },
+  {
+    "id": "q017",
+    "sourceTurn": 17,
+    "originalQuestion": "",
+    "originalAnswer": "Natural language processing (NLP)",
+    "images": [
+      "assets/gorseller/gorsel-11.png"
+    ],
+    "answer": "Natural language processing (NLP)",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Deep learning (DL)",
+      "Machine learning (ML)",
+      "Natural language processing (NLP)"
+    ],
+    "title": "Human-like responses",
+    "question": "Aura needs to understand customer requests, hold conversations, and generate human-like responses.\nWhat enabling technology will help?",
+    "transcribed": true
+  },
+  {
+    "id": "q018",
+    "sourceTurn": 18,
+    "originalQuestion": "",
+    "originalAnswer": "Natural language processing (NLP)",
+    "images": [
+      "assets/gorseller/gorsel-12.png"
+    ],
+    "answer": "Natural language processing (NLP)",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Deep learning (DL)",
+      "Machine learning (ML)",
+      "Natural language processing (NLP)"
+    ],
+    "title": "Understanding questions",
+    "question": "AssistAI struggles to understand different ways of asking the same question.\nWhat enabling technology will help?",
+    "transcribed": true
+  },
+  {
+    "id": "q019",
+    "sourceTurn": 19,
+    "originalQuestion": "",
+    "originalAnswer": "Machine learning (ML)",
+    "images": [
+      "assets/gorseller/gorsel-13.png"
+    ],
+    "answer": "Machine learning (ML)",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Deep learning (DL)",
+      "Natural language processing (NLP)",
+      "Machine learning (ML)"
+    ],
+    "title": "Predicting relevant responses",
+    "question": "AssistAI does not always predict the most relevant response to customer issues.\nWhat enabling technology will help?",
+    "transcribed": true
+  },
+  {
+    "id": "q020",
+    "sourceTurn": 20,
+    "originalQuestion": "",
+    "originalAnswer": "Natural language processing (NLP)",
+    "images": [
+      "assets/gorseller/gorsel-14.png"
+    ],
+    "answer": "Deep learning (DL)",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Machine learning (ML)",
+      "Deep learning (DL)",
+      "Natural language processing (NLP)"
+    ],
+    "title": "Tone and sentiment",
+    "question": "AssistAI struggles with recognizing tone or sentiment in customer messages.\nWhat enabling technology will help?",
+    "transcribed": true,
+    "correction": {
+      "sourceTurn": 21,
+      "request": "DL olacaktı düzlelt cevabı (ENG)",
+      "answer": "You are right, my mistake. The correct answer is:\n\nDeep learning (DL)",
+      "previousAnswer": "Natural language processing (NLP)"
+    }
+  },
+  {
+    "id": "q022",
+    "sourceTurn": 22,
+    "originalQuestion": "",
+    "originalAnswer": "Görseldeki eşleştirmeler şu şekilde olmalıdır:\n\nAutomation of repetitive tasks (Tekrarlayan görevlerin otomatikleştirilmesi)\n\n\"A space agency wants AI to routinely analyze satellite images and track climate patterns over time.\"\nEnhanced decision making (Gelişmiş karar verme)\n\n\"A sports analytics company wants AI to analyze player performance metrics and improve their game strategies.\"\nDecreased human errors (Azaltılmış insan hataları)\n\n\"A film studio wants AI to detect inconsistencies in visual effects, such as frame mismatches and color imbalances, before release.\"\nRound-the-clock availability (Günün her saati/7-24 kullanılabilirlik)\n\n\"A city’s transportation department wants AI to manage traffic flow, optimize signal timings, and reduce congestion 24x7.\"",
+    "images": [
+      "assets/gorseller/gorsel-15.png"
+    ],
+    "answer": "Görseldeki eşleştirmeler şu şekilde olmalıdır:\n\nAutomation of repetitive tasks (Tekrarlayan görevlerin otomatikleştirilmesi)\n\n\"A space agency wants AI to routinely analyze satellite images and track climate patterns over time.\"\nEnhanced decision making (Gelişmiş karar verme)\n\n\"A sports analytics company wants AI to analyze player performance metrics and improve their game strategies.\"\nDecreased human errors (Azaltılmış insan hataları)\n\n\"A film studio wants AI to detect inconsistencies in visual effects, such as frame mismatches and color imbalances, before release.\"\nRound-the-clock availability (Günün her saati/7-24 kullanılabilirlik)\n\n\"A city’s transportation department wants AI to manage traffic flow, optimize signal timings, and reduce congestion 24x7.\"",
+    "kind": "Eşleştirme",
+    "items": [
+      "A space agency wants AI to routinely analyze satellite images and track climate patterns over time.",
+      "A film studio wants AI to detect inconsistencies in visual effects, such as frame mismatches and color imbalances, before release.",
+      "A sports analytics company wants AI to analyze player performance metrics and improve their game strategies.",
+      "A city’s transportation department wants AI to manage traffic flow, optimize signal timings, and reduce congestion 24x7."
+    ],
+    "options": [
+      "Automation of repetitive tasks",
+      "Enhanced decision making",
+      "Decreased human errors",
+      "Round-the-clock availability"
+    ],
+    "title": "AI faydaları: eşleştirme",
+    "question": "Match each challenge to its AI benefit.",
+    "transcribed": true,
+    "pairs": [
+      {
+        "prompt": "A space agency wants AI to routinely analyze satellite images and track climate patterns over time.",
+        "answer": "Automation of repetitive tasks"
+      },
+      {
+        "prompt": "A film studio wants AI to detect inconsistencies in visual effects, such as frame mismatches and color imbalances, before release.",
+        "answer": "Decreased human errors"
+      },
+      {
+        "prompt": "A sports analytics company wants AI to analyze player performance metrics and improve their game strategies.",
+        "answer": "Enhanced decision making"
+      },
+      {
+        "prompt": "A city’s transportation department wants AI to manage traffic flow, optimize signal timings, and reduce congestion 24x7.",
+        "answer": "Round-the-clock availability"
+      }
+    ]
+  },
+  {
+    "id": "q023",
+    "sourceTurn": 23,
+    "originalQuestion": "",
+    "originalAnswer": "Görseldeki eşleştirmeler şu şekilde olmalıdır:\n\nHealthcare (Sağlık)\n\n\"AI-driven imaging analysis helps doctors detect diseases early by analyzing medical images.\"\nFinance (Finans)\n\n\"AI-driven tool scans financial transactions to detect suspicious activity.\"\nEducation (Eğitim)\n\n\"AI-based platform customizes learning materials according to student progress.\"\nRetail (Perakende)\n\n\"AI-powered inventory forecasting predicts customer demand.\"",
+    "images": [
+      "assets/gorseller/gorsel-16.png"
+    ],
+    "answer": "Görseldeki eşleştirmeler şu şekilde olmalıdır:\n\nHealthcare (Sağlık)\n\n\"AI-driven imaging analysis helps doctors detect diseases early by analyzing medical images.\"\nFinance (Finans)\n\n\"AI-driven tool scans financial transactions to detect suspicious activity.\"\nEducation (Eğitim)\n\n\"AI-based platform customizes learning materials according to student progress.\"\nRetail (Perakende)\n\n\"AI-powered inventory forecasting predicts customer demand.\"",
+    "kind": "Eşleştirme",
+    "items": [
+      "AI-driven imaging analysis helps doctors detect diseases early by analyzing medical images.",
+      "AI-based platform customizes learning materials according to student progress.",
+      "AI-driven tool scans financial transactions to detect suspicious activity.",
+      "AI-powered inventory forecasting predicts customer demand."
+    ],
+    "options": [
+      "Healthcare",
+      "Finance",
+      "Education",
+      "Retail"
+    ],
+    "title": "AI kullanım alanları",
+    "question": "Match each AI application to its industry.",
+    "transcribed": true,
+    "pairs": [
+      {
+        "prompt": "AI-driven imaging analysis helps doctors detect diseases early by analyzing medical images.",
+        "answer": "Healthcare"
+      },
+      {
+        "prompt": "AI-based platform customizes learning materials according to student progress.",
+        "answer": "Education"
+      },
+      {
+        "prompt": "AI-driven tool scans financial transactions to detect suspicious activity.",
+        "answer": "Finance"
+      },
+      {
+        "prompt": "AI-powered inventory forecasting predicts customer demand.",
+        "answer": "Retail"
+      }
+    ]
+  },
+  {
+    "id": "q024",
+    "sourceTurn": 24,
+    "originalQuestion": "A retail store wants to streamline its checkout process by implementing AI-powered solutions.\nWhich of the following systems uses AI rather than rule-based automation?\nA tool that schedules employee shifts based on a predefined template\nA self-checkout machine that scans barcodes to register items and process payments\nA self-checkout system that uses image recognition to identify items and process payments\nA system that automatically applies discounts based on pre-programmed rules",
+    "originalAnswer": "A self-checkout system that uses image recognition to identify items and process payments",
+    "images": [],
+    "answer": "A self-checkout system that uses image recognition to identify items and process payments",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "A tool that schedules employee shifts based on a predefined template",
+      "A self-checkout machine that scans barcodes to register items and process payments",
+      "A self-checkout system that uses image recognition to identify items and process payments",
+      "A system that automatically applies discounts based on pre-programmed rules"
+    ],
+    "question": "A retail store wants to streamline its checkout process by implementing AI-powered solutions.\nWhich of the following systems uses AI rather than rule-based automation?",
+    "title": "AI-powered checkout"
+  },
+  {
+    "id": "q025",
+    "sourceTurn": 25,
+    "originalQuestion": "A financial institution wants to automate loan approvals. The system must evaluate applicants based on credit history, income, and other risk factors before determining loan approvals.\nWhich form of AI would be most suitable for this task?\nPredictive AI\nGenerative AI\nDecision-making AI\nComputer vision AI",
+    "originalAnswer": "Decision-making AI",
+    "images": [],
+    "answer": "Decision-making AI",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Predictive AI",
+      "Generative AI",
+      "Decision-making AI",
+      "Computer vision AI"
+    ],
+    "question": "A financial institution wants to automate loan approvals. The system must evaluate applicants based on credit history, income, and other risk factors before determining loan approvals.\nWhich form of AI would be most suitable for this task?",
+    "title": "Loan approval decisions"
+  },
+  {
+    "id": "q026",
+    "sourceTurn": 26,
+    "originalQuestion": "A large online retailer wants to improve its supply chain efficiency and ensure products are always in stock without overordering.\nWhich AI application would best support this goal?\nAI image recognition tagging product photos\nAI-driven demand forecasting predicting stock needs\nAI-powered recommendation systems suggesting products to customers\nAI chatbots providing 24x7 customer service",
+    "originalAnswer": "AI-driven demand forecasting predicting stock needs",
+    "images": [],
+    "answer": "AI-driven demand forecasting predicting stock needs",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "AI image recognition tagging product photos",
+      "AI-driven demand forecasting predicting stock needs",
+      "AI-powered recommendation systems suggesting products to customers",
+      "AI chatbots providing 24x7 customer service"
+    ],
+    "question": "A large online retailer wants to improve its supply chain efficiency and ensure products are always in stock without overordering.\nWhich AI application would best support this goal?",
+    "title": "Supply chain forecasting"
+  },
+  {
+    "id": "q027",
+    "sourceTurn": 27,
+    "originalQuestion": "A retail company wants to personalize product recommendations for customers based on their purchase history.\nWhich form of AI would be most suitable for this task?\nPredictive AI\nGenerative AI\nComputer vision AI\nDecision-making AI",
+    "originalAnswer": "Predictive AI",
+    "images": [],
+    "answer": "Predictive AI",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Predictive AI",
+      "Generative AI",
+      "Computer vision AI",
+      "Decision-making AI"
+    ],
+    "question": "A retail company wants to personalize product recommendations for customers based on their purchase history.\nWhich form of AI would be most suitable for this task?",
+    "title": "Personalized products"
+  },
+  {
+    "id": "q028",
+    "sourceTurn": 28,
+    "originalQuestion": "A hospital wants to use AI to analyze patient medical records and detect early signs of disease.\nWhich AI technology would be most effective for analyzing medical images, such as X-rays?\nNatural language processing\nMachine learning\nDeep learning",
+    "originalAnswer": "Deep learning",
+    "images": [],
+    "answer": "Deep learning",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Natural language processing",
+      "Machine learning",
+      "Deep learning"
+    ],
+    "question": "A hospital wants to use AI to analyze patient medical records and detect early signs of disease.\nWhich AI technology would be most effective for analyzing medical images, such as X-rays?",
+    "title": "Medical image analysis"
+  },
+  {
+    "id": "q029",
+    "sourceTurn": 29,
+    "originalQuestion": "A news platform wants to use AI to automatically summarize articles and generate concise news highlights.\nWhich AI technology would be most useful for this task?\nDeep learning\nMachine learning\nNatural language processing",
+    "originalAnswer": "Natural language processing\n\nSummarize News Articles with Python\nThis video provides a practical demonstration of using natural language processing to automatically summarize news articles.\n\nSummarize News Articles with Machine Learning in Python\nNeuralNine · 67 B görüntüleme",
+    "images": [],
+    "answer": "Natural language processing",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Deep learning",
+      "Machine learning",
+      "Natural language processing"
+    ],
+    "question": "A news platform wants to use AI to automatically summarize articles and generate concise news highlights.\nWhich AI technology would be most useful for this task?",
+    "title": "Summarizing the news"
+  },
+  {
+    "id": "q031",
+    "sourceTurn": 31,
+    "originalQuestion": "A speech recognition AI product is designed to transcribe spoken language into text. Initially, it struggles with recognizing different accents and speech patterns.\nWhich step in AI learning allows the system to improve accuracy over time?\nLearn through feedback\nFind patterns\nCollect data\nMake predictions",
+    "originalAnswer": "Learn through feedback",
+    "images": [],
+    "answer": "Learn through feedback",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Learn through feedback",
+      "Find patterns",
+      "Collect data",
+      "Make predictions"
+    ],
+    "question": "A speech recognition AI product is designed to transcribe spoken language into text. Initially, it struggles with recognizing different accents and speech patterns.\nWhich step in AI learning allows the system to improve accuracy over time?",
+    "title": "Learning from speech feedback"
+  },
+  {
+    "id": "q032",
+    "sourceTurn": 32,
+    "originalQuestion": "A financial company wants to use AI to detect fraudulent transactions more accurately and prevent financial losses.\nWhich of the following AI benefits is most relevant to this goal?\nAI enhances decision making by identifying unusual transaction patterns.\nAI improves physical safety in high-risk work environments.\nAI automates repetitive tasks, reducing human workload.\nAI ensures 24x7 availability for customer support.\nSUBMIT",
+    "originalAnswer": "AI enhances decision making by identifying unusual transaction patterns.",
+    "images": [],
+    "answer": "AI enhances decision making by identifying unusual transaction patterns.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "AI enhances decision making by identifying unusual transaction patterns.",
+      "AI improves physical safety in high-risk work environments.",
+      "AI automates repetitive tasks, reducing human workload.",
+      "AI ensures 24x7 availability for customer support."
+    ],
+    "question": "A financial company wants to use AI to detect fraudulent transactions more accurately and prevent financial losses.\nWhich of the following AI benefits is most relevant to this goal?",
+    "title": "Preventing financial fraud"
+  },
+  {
+    "id": "q033",
+    "sourceTurn": 33,
+    "originalQuestion": "Pooja works in the travel industry and is responsible for implementing tools to improve customer experience. She needs to determine which tasks require AI capabilities and which are better suited for automation.\nWhich of the following tasks is most likely performed by AI in Pooja’s travel company?\nAutomatically sending booking confirmation emails to customers\nGenerating daily reports of all bookings made through the system\nAnalyzing customer preferences to suggest personalized travel packages\nCalculating refund amounts based on predefined cancellation policies",
+    "originalAnswer": "Analyzing customer preferences to suggest personalized travel packages",
+    "images": [],
+    "answer": "Analyzing customer preferences to suggest personalized travel packages",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Automatically sending booking confirmation emails to customers",
+      "Generating daily reports of all bookings made through the system",
+      "Analyzing customer preferences to suggest personalized travel packages",
+      "Calculating refund amounts based on predefined cancellation policies"
+    ],
+    "question": "Pooja works in the travel industry and is responsible for implementing tools to improve customer experience. She needs to determine which tasks require AI capabilities and which are better suited for automation.\nWhich of the following tasks is most likely performed by AI in Pooja’s travel company?",
+    "title": "AI in the travel industry"
+  },
+  {
+    "id": "q034",
+    "sourceTurn": 34,
+    "originalQuestion": "You downloaded a news app 10 days ago. At first, the recommendations seemed random, but over time, they started matching your interests. Now, the app consistently suggests news articles, blogs, and videos that match your interests.\nWhat is the first step AI must take so it can personalize recommendations?\nCollect data\nMake predictions\nFind patterns\nLearn through feedback\nSUBMIT",
+    "originalAnswer": "Collect data",
+    "images": [],
+    "answer": "Collect data",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Collect data",
+      "Make predictions",
+      "Find patterns",
+      "Learn through feedback"
+    ],
+    "question": "You downloaded a news app 10 days ago. At first, the recommendations seemed random, but over time, they started matching your interests. Now, the app consistently suggests news articles, blogs, and videos that match your interests.\nWhat is the first step AI must take so it can personalize recommendations?",
+    "title": "The first learning step"
+  },
+  {
+    "id": "q035",
+    "sourceTurn": 35,
+    "originalQuestion": "You are assigned to review an extensive report with dozens of data charts before a team meeting. What is the most likely limit of human reasoning you’ll face if you try to process everything at once?\nDecision fatigue\nInconsistent judgment\nInformation overload",
+    "originalAnswer": "Information overload",
+    "images": [],
+    "answer": "Information overload",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Decision fatigue",
+      "Inconsistent judgment",
+      "Information overload"
+    ],
+    "question": "You are assigned to review an extensive report with dozens of data charts before a team meeting. What is the most likely limit of human reasoning you’ll face if you try to process everything at once?",
+    "title": "Too much information"
+  },
+  {
+    "id": "q036",
+    "sourceTurn": 36,
+    "originalQuestion": "After a long day of making decisions on multiple projects, you notice that your choices become less careful. What is the limit of human reasoning you’re facing?\nDecision fatigue\nInconsistent judgment\nInformation overload",
+    "originalAnswer": "Decision fatigue",
+    "images": [],
+    "answer": "Decision fatigue",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Decision fatigue",
+      "Inconsistent judgment",
+      "Information overload"
+    ],
+    "question": "After a long day of making decisions on multiple projects, you notice that your choices become less careful. What is the limit of human reasoning you’re facing?",
+    "title": "A long day of decisions"
+  },
+  {
+    "id": "q037",
+    "sourceTurn": 37,
+    "originalQuestion": "Managers notice that they approve similar requests differently, depending on their mood or the time of day. What limit of human reasoning are they noticing?\nDecision fatigue\nInconsistent judgment\nInformation overload",
+    "originalAnswer": "Inconsistent judgment",
+    "images": [],
+    "answer": "Inconsistent judgment",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Decision fatigue",
+      "Inconsistent judgment",
+      "Information overload"
+    ],
+    "question": "Managers notice that they approve similar requests differently, depending on their mood or the time of day. What limit of human reasoning are they noticing?",
+    "title": "Changing judgments"
+  },
+  {
+    "id": "q038",
+    "sourceTurn": 38,
+    "originalQuestion": "A marketing manager receives hundreds of emails daily, many of which are spam or phishing attempts. The company has begun using an AI spam filter that scans incoming messages and routes likely spam into a separate folder.\nWhich AI capability addresses this data challenge?\nOffering insights\nFinding patterns\nAutomating tasks",
+    "originalAnswer": "Automating tasks",
+    "images": [],
+    "answer": "Automating tasks",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Offering insights",
+      "Finding patterns",
+      "Automating tasks"
+    ],
+    "question": "A marketing manager receives hundreds of emails daily, many of which are spam or phishing attempts. The company has begun using an AI spam filter that scans incoming messages and routes likely spam into a separate folder.\nWhich AI capability addresses this data challenge?",
+    "title": "Filtering spam"
+  },
+  {
+    "id": "q039",
+    "sourceTurn": 39,
+    "originalQuestion": "",
+    "originalAnswer": "Görseldeki eşleştirmeler şu şekilde olmalıdır:\n\nPattern recognition\n\n\"Maya receives thousands of show reviews every day, but they're unlabeled and all mixed together. Some reviews say, 'loved it', while others say 'boring', and many use slang words or emojis. Maya wants to quickly identify which reviews are positive or negative without having to read each one.\"\n\nInsights\n\n\"Sofia needs to plan which new comedy shows to add to the streaming service, but she's not sure how many people will want to watch them. Sofia wants to avoid ordering shows that nobody watches or not having enough when they become popular.\"\n\nAutomation\n\n\"Carlos receives customer complaints in a variety of ways and formats, including emails, screenshots, and voice messages. Many people don't leave their account information or identify themselves. Carlos wants to reduce the time spent searching for basic account details.\"",
+    "images": [
+      "assets/gorseller/gorsel-17.png"
+    ],
+    "answer": "Görseldeki eşleştirmeler şu şekilde olmalıdır:\n\nPattern recognition\n\n\"Maya receives thousands of show reviews every day, but they're unlabeled and all mixed together. Some reviews say, 'loved it', while others say 'boring', and many use slang words or emojis. Maya wants to quickly identify which reviews are positive or negative without having to read each one.\"\n\nInsights\n\n\"Sofia needs to plan which new comedy shows to add to the streaming service, but she's not sure how many people will want to watch them. Sofia wants to avoid ordering shows that nobody watches or not having enough when they become popular.\"\n\nAutomation\n\n\"Carlos receives customer complaints in a variety of ways and formats, including emails, screenshots, and voice messages. Many people don't leave their account information or identify themselves. Carlos wants to reduce the time spent searching for basic account details.\"",
+    "kind": "Eşleştirme",
+    "items": [
+      "Carlos receives customer complaints in a variety of ways and formats, including emails, screenshots, and voice messages. Many people don't leave their account information or identify themselves. Carlos wants to reduce the time spent searching for basic account details.",
+      "Sofia needs to plan which new comedy shows to add to the streaming service, but she's not sure how many people will want to watch them. Sofia wants to avoid ordering shows that nobody watches or not having enough when they become popular.",
+      "Maya receives thousands of show reviews every day, but they're unlabeled and all mixed together. Some reviews say, 'loved it', while others say 'boring', and many use slang words or emojis. Maya wants to quickly identify which reviews are positive or negative without having to read each one."
+    ],
+    "options": [
+      "Pattern recognition",
+      "Insights",
+      "Automation"
+    ],
+    "title": "Pattern recognition, insights, automation",
+    "question": "Match each scenario to the AI capability that supports it.",
+    "transcribed": true,
+    "pairs": [
+      {
+        "prompt": "Carlos receives customer complaints in a variety of ways and formats, including emails, screenshots, and voice messages. Many people don't leave their account information or identify themselves. Carlos wants to reduce the time spent searching for basic account details.",
+        "answer": "Automation"
+      },
+      {
+        "prompt": "Sofia needs to plan which new comedy shows to add to the streaming service, but she's not sure how many people will want to watch them. Sofia wants to avoid ordering shows that nobody watches or not having enough when they become popular.",
+        "answer": "Insights"
+      },
+      {
+        "prompt": "Maya receives thousands of show reviews every day, but they're unlabeled and all mixed together. Some reviews say, 'loved it', while others say 'boring', and many use slang words or emojis. Maya wants to quickly identify which reviews are positive or negative without having to read each one.",
+        "answer": "Pattern recognition"
+      }
+    ]
+  },
+  {
+    "id": "q040",
+    "sourceTurn": 40,
+    "originalQuestion": "Someone is planning a vacation and wants to use AI to translate restaurant menus and signs while traveling.\nWhich AI capability best supports this task?\nPerception\nLanguage\nDecision making",
+    "originalAnswer": "Language",
+    "images": [],
+    "answer": "Language",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Perception",
+      "Language",
+      "Decision making"
+    ],
+    "question": "Someone is planning a vacation and wants to use AI to translate restaurant menus and signs while traveling.\nWhich AI capability best supports this task?",
+    "title": "Translating on vacation"
+  },
+  {
+    "id": "q041",
+    "sourceTurn": 41,
+    "originalQuestion": "A retail company uses AI to automatically identify products on shelves using footage from store cameras.\nWhich AI capability best supports this task?\nPerception\nLanguage\nDecision making",
+    "originalAnswer": "Perception",
+    "images": [],
+    "answer": "Perception",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Perception",
+      "Language",
+      "Decision making"
+    ],
+    "question": "A retail company uses AI to automatically identify products on shelves using footage from store cameras.\nWhich AI capability best supports this task?",
+    "title": "Recognizing shelf products"
+  },
+  {
+    "id": "q042",
+    "sourceTurn": 42,
+    "originalQuestion": "A school uses AI to predict which students might require additional support based on their grades and attendance records.\nWhich AI capability best supports this task?\nLanguage\nPerception\nDecision making",
+    "originalAnswer": "Decision making",
+    "images": [],
+    "answer": "Decision making",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Language",
+      "Perception",
+      "Decision making"
+    ],
+    "question": "A school uses AI to predict which students might require additional support based on their grades and attendance records.\nWhich AI capability best supports this task?",
+    "title": "Predicting student support"
+  },
+  {
+    "id": "q043",
+    "sourceTurn": 43,
+    "originalQuestion": "A company uses AI to review job applications.\nWhat limitation should you watch for when the training data primarily consists of applicants from a single background?\nSelect the two answers that apply, then select Submit.\n-\n- AI hallucination risks\n-\n- Bias in AI systems\n-\n- Gaps in training data\n-\n- Misunderstood AI output",
+    "originalAnswer": "Bias in AI systems\n\nGaps in training data",
+    "images": [],
+    "answer": "Bias in AI systems\n\nGaps in training data",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "AI hallucination risks",
+      "Bias in AI systems",
+      "Gaps in training data",
+      "Misunderstood AI output"
+    ],
+    "question": "A company uses AI to review job applications.\nWhat limitation should you watch for when the training data primarily consists of applicants from a single background?\nSelect the two answers that apply, then select Submit.",
+    "title": "Unrepresentative training data"
+  },
+  {
+    "id": "q044",
+    "sourceTurn": 44,
+    "originalQuestion": "You requested an AI tool to summarize a report, but found it included details that were not in the original. You are puzzled and double-check the original document to ensure you didn’t miss anything.\nWhat limitation does this situation illustrate?\nAI hallucination risks\nBias in AI systems\nGaps in training data\nMisunderstood AI output",
+    "originalAnswer": "AI hallucination risks",
+    "images": [],
+    "answer": "AI hallucination risks",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "AI hallucination risks",
+      "Bias in AI systems",
+      "Gaps in training data",
+      "Misunderstood AI output"
+    ],
+    "question": "You requested an AI tool to summarize a report, but found it included details that were not in the original. You are puzzled and double-check the original document to ensure you didn’t miss anything.\nWhat limitation does this situation illustrate?",
+    "title": "Invented report details"
+  },
+  {
+    "id": "q045",
+    "sourceTurn": 45,
+    "originalQuestion": "A manager receives a list of suggested actions from an AI system and assumes all recommendations are accurate.\nWhat limitation of AI does this situation illustrate?\nBias in AI systems\nAI hallucination risks\nGaps in training data\nMisunderstood AI output",
+    "originalAnswer": "Misunderstood AI output",
+    "images": [],
+    "answer": "Misunderstood AI output",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Bias in AI systems",
+      "AI hallucination risks",
+      "Gaps in training data",
+      "Misunderstood AI output"
+    ],
+    "question": "A manager receives a list of suggested actions from an AI system and assumes all recommendations are accurate.\nWhat limitation of AI does this situation illustrate?",
+    "title": "Trusting every recommendation"
+  },
+  {
+    "id": "q046",
+    "sourceTurn": 46,
+    "originalQuestion": "A teacher uses an AI tool to generate quiz questions for a world history unit but notices the tool skips important events from regions outside Europe.\nWhat limitation of AI does this situation illustrate?\nBias in AI systems\nAI hallucination risks\nGaps in training data\nMisunderstood AI output",
+    "originalAnswer": "Gaps in training data",
+    "images": [],
+    "answer": "Gaps in training data",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Bias in AI systems",
+      "AI hallucination risks",
+      "Gaps in training data",
+      "Misunderstood AI output"
+    ],
+    "question": "A teacher uses an AI tool to generate quiz questions for a world history unit but notices the tool skips important events from regions outside Europe.\nWhat limitation of AI does this situation illustrate?",
+    "title": "Missing history coverage"
+  },
+  {
+    "id": "q047",
+    "sourceTurn": 47,
+    "originalQuestion": "You are an analyst on a human resources team using AI to review a pool of applicants for a graphics design position. You notice the AI’s report does not include applicants from a local university. After some research, you conclude that the degree name from that school doesn’t match the criteria the AI tool is using, when in reality these applicants are eligible.\nWhat is an action you can take to promote a more equitable selection of eligible applicants?\nConsult with subject matter experts about retraining the AI tool.\nInform the talent team that the report excludes some applicants.\nIncrease the number of applicants reviewed per day.\nModify the AI tool to prioritize applicants from the local university.",
+    "originalAnswer": "Consult with subject matter experts about retraining the AI tool.",
+    "images": [],
+    "answer": "Consult with subject matter experts about retraining the AI tool.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Consult with subject matter experts about retraining the AI tool.",
+      "Inform the talent team that the report excludes some applicants.",
+      "Increase the number of applicants reviewed per day.",
+      "Modify the AI tool to prioritize applicants from the local university."
+    ],
+    "question": "You are an analyst on a human resources team using AI to review a pool of applicants for a graphics design position. You notice the AI’s report does not include applicants from a local university. After some research, you conclude that the degree name from that school doesn’t match the criteria the AI tool is using, when in reality these applicants are eligible.\nWhat is an action you can take to promote a more equitable selection of eligible applicants?",
+    "title": "More equitable applicant screening"
+  },
+  {
+    "id": "q048",
+    "sourceTurn": 48,
+    "originalQuestion": "",
+    "originalAnswer": "Language-based",
+    "images": [
+      "assets/gorseller/gorsel-18.png"
+    ],
+    "answer": "Language-based",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Language-based",
+      "Perception-based",
+      "Decision-making"
+    ],
+    "title": "English tutoring",
+    "question": "Hillcrest High is piloting a peer tutoring program to help students meet course expectations in their English classes. Tutors meet weekly with students to explain key concepts and review current papers. The team wants to explore whether AI can enhance this solution by providing targeted feedback between sessions.\nWhich capability of AI would enhance this solution the most?",
+    "transcribed": true
+  },
+  {
+    "id": "q049",
+    "sourceTurn": 49,
+    "originalQuestion": "",
+    "originalAnswer": "Perception-based",
+    "images": [
+      "assets/gorseller/gorsel-19.png"
+    ],
+    "answer": "Perception-based",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Language-based",
+      "Perception-based",
+      "Decision-making"
+    ],
+    "title": "Science lab equipment",
+    "question": "Hillcrest High is redesigning how students check equipment in and out of the science lab. Currently, students manually log each item they borrow, but errors and missing items are common. The team wants to explore whether AI can enhance the process by recognizing equipment visually when it’s removed or returned.\nWhich capability of AI would enhance this solution the most?",
+    "transcribed": true
+  },
+  {
+    "id": "q050",
+    "sourceTurn": 50,
+    "originalQuestion": "",
+    "originalAnswer": "Decision-making",
+    "images": [
+      "assets/gorseller/gorsel-20.png"
+    ],
+    "answer": "Decision-making",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Language-based",
+      "Perception-based",
+      "Decision-making"
+    ],
+    "title": "College and career planning",
+    "question": "Hillcrest High implemented a new college and career planning tool to help students explore future pathways. The current system offers lots of information, but students often feel overwhelmed and unsure of what to focus on. The team wants to explore whether AI can enhance the tool by suggesting personalized next steps based on a student’s interests, strengths, and goals.\nWhich capability of AI would enhance this solution the most?",
+    "transcribed": true
+  },
+  {
+    "id": "q051",
+    "sourceTurn": 51,
+    "originalQuestion": "",
+    "originalAnswer": "Hallucinations",
+    "images": [
+      "assets/gorseller/gorsel-21.png"
+    ],
+    "answer": "Hallucinations",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Bias",
+      "Hallucinations",
+      "Gaps in training"
+    ],
+    "title": "Confident but inaccurate edits",
+    "question": "You’ve already explored how AI can support English tutoring by giving feedback between sessions. When reviewing the AI writing tool, a few tech club members noticed that it sometimes suggested edits that sounded confident but weren’t always accurate or necessary.\nWhich limitation of AI does this example illustrate?",
+    "transcribed": true
+  },
+  {
+    "id": "q052",
+    "sourceTurn": 52,
+    "originalQuestion": "",
+    "originalAnswer": "Gaps in training",
+    "images": [
+      "assets/gorseller/gorsel-22.png"
+    ],
+    "answer": "Gaps in training",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Bias",
+      "Hallucinations",
+      "Gaps in training"
+    ],
+    "title": "Unrecognized equipment",
+    "question": "The tech club has done some testing on the equipment check-in AI. After reviewing sample output from the AI tool, the tech club noticed the tool incorrectly labeled some common items, such as safety goggles and glass beakers. In some cases, the AI tool didn’t recognize the item at all.\nWhich limitation of AI does this example illustrate?",
+    "transcribed": true
+  },
+  {
+    "id": "q053",
+    "sourceTurn": 53,
+    "originalQuestion": "",
+    "originalAnswer": "Bias",
+    "images": [
+      "assets/gorseller/gorsel-23.png"
+    ],
+    "answer": "Bias",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Bias",
+      "Hallucinations",
+      "Gaps in training"
+    ],
+    "title": "Unequal recommendations",
+    "question": "On closer inspection of the mismatched recommendations, the tech club noticed a worrisome pattern: they realized that students from certain zip codes were more likely to receive more challenging options. While others, even with the same scores, were more often advised to opt for easier or more general education or career paths.\nWhich limitation of AI does this example illustrate?",
+    "transcribed": true
+  },
+  {
+    "id": "q055",
+    "sourceTurn": 55,
+    "originalQuestion": "Which of the following actions is an example of feedback that an AI system learns from?\nSelecting “Not helpful” about a virtual assistant’s response\nOpening a new browser tab to continue searching for the answer\nSharing the virtual assistant’s response with friends on the platform\nClosing the virtual assistant panel to continue browsing",
+    "originalAnswer": "Selecting “Not helpful” about a virtual assistant’s response",
+    "images": [],
+    "answer": "Selecting “Not helpful” about a virtual assistant’s response",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Selecting “Not helpful” about a virtual assistant’s response",
+      "Opening a new browser tab to continue searching for the answer",
+      "Sharing the virtual assistant’s response with friends on the platform",
+      "Closing the virtual assistant panel to continue browsing"
+    ],
+    "question": "Which of the following actions is an example of feedback that an AI system learns from?",
+    "title": "Feedback an AI can learn from"
+  },
+  {
+    "id": "q056",
+    "sourceTurn": 56,
+    "originalQuestion": "When you select the thumbs-up button on a song recommended by the AI, what effect can that action have?\nIt reinforces the model’s understanding of what you like, helping it suggest music for you and others with similar likes.\nIt boosts the track’s overall popularity score on the service, which can shape what songs trend for everyone.\nIt queues more tracks by that artist for the current session rather than updating your broader recommendation profile.\nIt adds the artist’s new releases to a thumbs-up playlist for this session without saving the preference long-term.",
+    "originalAnswer": "It reinforces the model’s understanding of what you like, helping it suggest music for you and others with similar likes.",
+    "images": [],
+    "answer": "It reinforces the model’s understanding of what you like, helping it suggest music for you and others with similar likes.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "It reinforces the model’s understanding of what you like, helping it suggest music for you and others with similar likes.",
+      "It boosts the track’s overall popularity score on the service, which can shape what songs trend for everyone.",
+      "It queues more tracks by that artist for the current session rather than updating your broader recommendation profile.",
+      "It adds the artist’s new releases to a thumbs-up playlist for this session without saving the preference long-term."
+    ],
+    "question": "When you select the thumbs-up button on a song recommended by the AI, what effect can that action have?",
+    "title": "A thumbs-up on a song"
+  },
+  {
+    "id": "q057",
+    "sourceTurn": 57,
+    "originalQuestion": "You receive suggestions for a variety of comedy series after watching a similar type of show on your streaming service.\nHow did the streaming app generate these suggestions?\nThe recommendation engine filtered out shows that you have already watched.\nThe streaming app uses automated decision making to simplify your search.\nThe streaming app predicted which shows would become popular with other viewers.\nThe recommendation engine identified patterns to suggest other series you might like.",
+    "originalAnswer": "The recommendation engine identified patterns to suggest other series you might like.",
+    "images": [],
+    "answer": "The recommendation engine identified patterns to suggest other series you might like.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "The recommendation engine filtered out shows that you have already watched.",
+      "The streaming app uses automated decision making to simplify your search.",
+      "The streaming app predicted which shows would become popular with other viewers.",
+      "The recommendation engine identified patterns to suggest other series you might like."
+    ],
+    "question": "You receive suggestions for a variety of comedy series after watching a similar type of show on your streaming service.\nHow did the streaming app generate these suggestions?",
+    "title": "Streaming recommendations"
+  },
+  {
+    "id": "q058",
+    "sourceTurn": 58,
+    "originalQuestion": "You are ready for a presentation in a smart office. The ambient AI system detects that a presentation is about to start, so it dims the lights and reduces noise levels.\nHow did the ambient AI system know to make the adjustments?\nIt used a pre-programmed schedule for the meeting room.\nIt recognized the meeting context and adjusted the settings accordingly.\nIt reacted to a signal provided by the meeting organizer.\nIt used facial recognition to identify the expression of the presenter.",
+    "originalAnswer": "It recognized the meeting context and adjusted the settings accordingly.",
+    "images": [],
+    "answer": "It recognized the meeting context and adjusted the settings accordingly.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "It used a pre-programmed schedule for the meeting room.",
+      "It recognized the meeting context and adjusted the settings accordingly.",
+      "It reacted to a signal provided by the meeting organizer.",
+      "It used facial recognition to identify the expression of the presenter."
+    ],
+    "question": "You are ready for a presentation in a smart office. The ambient AI system detects that a presentation is about to start, so it dims the lights and reduces noise levels.\nHow did the ambient AI system know to make the adjustments?",
+    "title": "Ambient AI in a smart office"
+  },
+  {
+    "id": "q059",
+    "sourceTurn": 59,
+    "originalQuestion": "A smart car uses embedded AI to detect nearby obstacles and automatically activate the brakes to avoid collisions.\nHow does the embedded AI in the smart car perform this task?\nIt sends the sensor data to the cloud for processing and waits for a response.\nIt receives manual input from the driver to detect and avoid obstacles.\nIt analyzes sensor data to recognize obstacles and respond in real time.\nIt applies the brakes at regular intervals following a previously set timer.",
+    "originalAnswer": "It analyzes sensor data to recognize obstacles and respond in real time.",
+    "images": [],
+    "answer": "It analyzes sensor data to recognize obstacles and respond in real time.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "It sends the sensor data to the cloud for processing and waits for a response.",
+      "It receives manual input from the driver to detect and avoid obstacles.",
+      "It analyzes sensor data to recognize obstacles and respond in real time.",
+      "It applies the brakes at regular intervals following a previously set timer."
+    ],
+    "question": "A smart car uses embedded AI to detect nearby obstacles and automatically activate the brakes to avoid collisions.\nHow does the embedded AI in the smart car perform this task?",
+    "title": "Embedded AI in a smart car"
+  },
+  {
+    "id": "q060",
+    "sourceTurn": 60,
+    "originalQuestion": "Which task is most likely to be handled with a consumer AI tool?\nConsolidating sensor readings to predict equipment failure\nMatching thousands of résumés to open positions across departments\nDrafting a brief social-media caption based on a vacation photo\nAuditing real-time financial transactions for signs of fraud",
+    "originalAnswer": "Drafting a brief social-media caption based on a vacation photo",
+    "images": [],
+    "answer": "Drafting a brief social-media caption based on a vacation photo",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Consolidating sensor readings to predict equipment failure",
+      "Matching thousands of résumés to open positions across departments",
+      "Drafting a brief social-media caption based on a vacation photo",
+      "Auditing real-time financial transactions for signs of fraud"
+    ],
+    "question": "Which task is most likely to be handled with a consumer AI tool?",
+    "title": "Consumer AI tools"
+  },
+  {
+    "id": "q061",
+    "sourceTurn": 61,
+    "originalQuestion": "A retailer uses AI to analyze point-of-sale data from hundreds of stores and update inventory forecasts every hour. What type of AI tool does this describe?\nAn enterprise AI tool performing large-scale data analysis\nAn enterprise AI tool collecting data to predict customer buying behavior\nA personal AI assistant analyzing retail trends to enable decision making\nA retail app for tracking customer likes and dislikes\nSUBMIT",
+    "originalAnswer": "An enterprise AI tool performing large-scale data analysis",
+    "images": [],
+    "answer": "An enterprise AI tool performing large-scale data analysis",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "An enterprise AI tool performing large-scale data analysis",
+      "An enterprise AI tool collecting data to predict customer buying behavior",
+      "A personal AI assistant analyzing retail trends to enable decision making",
+      "A retail app for tracking customer likes and dislikes"
+    ],
+    "question": "A retailer uses AI to analyze point-of-sale data from hundreds of stores and update inventory forecasts every hour. What type of AI tool does this describe?",
+    "title": "Enterprise inventory analysis"
+  },
+  {
+    "id": "q062",
+    "sourceTurn": 62,
+    "originalQuestion": "",
+    "originalAnswer": "It helps the AI create a more relevant and tailored plan for your needs.",
+    "images": [
+      "assets/gorseller/gorsel-25.png"
+    ],
+    "answer": "It helps the AI create a more relevant and tailored plan for your needs.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "It allows the AI to guess what you want without any guidance.",
+      "It helps the AI create a more relevant and tailored plan for your needs.",
+      "It makes the process faster, but the content might be less accurate.",
+      "It prevents the AI from generating any content at all."
+    ],
+    "title": "Specific prompt details",
+    "question": "Why is it important to provide specific details in your prompt when asking an AI tool to generate a product launch plan?",
+    "transcribed": true
+  },
+  {
+    "id": "q063",
+    "sourceTurn": 63,
+    "originalQuestion": "",
+    "originalAnswer": "Check whether all key areas are included and clearly explained.",
+    "images": [
+      "assets/gorseller/gorsel-26.png",
+      "assets/gorseller/gorsel-27.png"
+    ],
+    "answer": "Check whether all key areas are included and clearly explained.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Check whether all key areas are included and clearly explained.",
+      "Check the document for spelling and grammar errors.",
+      "Check branding guidelines to ensure the font style matches.",
+      "Check whether the content is organized and easy to understand."
+    ],
+    "title": "Reviewing an AI plan",
+    "question": "When reviewing the plan that Gemini AI generated, what should you focus on before moving forward?",
+    "transcribed": true
+  },
+  {
+    "id": "q064",
+    "sourceTurn": 64,
+    "originalQuestion": "",
+    "originalAnswer": "Refine the marketing messages so the tone and style fit an audience of 16-25 year olds.",
+    "images": [
+      "assets/gorseller/gorsel-28.png"
+    ],
+    "answer": "Refine the marketing messages so the tone and style fit an audience of 16-25 year olds.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Refine the marketing messages so the tone and style fit an audience of 16-25 year olds.",
+      "Edit the marketing messages to be more interesting and exciting for the target audience.",
+      "Make the marketing messages sound cooler and more fun for younger people.",
+      "Change the marketing section so it feels different and better than the original version."
+    ],
+    "title": "Gen Z marketing",
+    "question": "You know that AI tools respond best to clear and specific prompts. Which of the following is the most effective way to refine the marketing messaging for a Gen Z audience using Gemini?",
+    "transcribed": true
+  },
+  {
+    "id": "q065",
+    "sourceTurn": 65,
+    "originalQuestion": "",
+    "originalAnswer": "Build a basic supplier timeline that keeps things at a high level so that too much information doesn’t overwhelm external vendors.",
+    "images": [
+      "assets/gorseller/gorsel-29.png"
+    ],
+    "answer": "Build a basic supplier timeline that keeps things at a high level so that too much information doesn’t overwhelm external vendors.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Create a marketing timeline for internal team planning that includes tasks, responsible roles, and deadlines.",
+      "Include a timeline highlighting big-picture milestones so senior leadership can get a quick overview without too much detail.",
+      "Add a short visual timeline that looks polished and professional for stakeholder presentation, even if the dates aren’t final yet.",
+      "Build a basic supplier timeline that keeps things at a high level so that too much information doesn’t overwhelm external vendors."
+    ],
+    "title": "Supplier timeline",
+    "question": "You’re using Gemini to generate a supplier timeline so that baristas and managers know what needs to happen and when. Which prompt best reflects audience awareness?",
+    "transcribed": true
+  },
+  {
+    "id": "q066",
+    "sourceTurn": 66,
+    "originalQuestion": "",
+    "originalAnswer": "As a project manager, create a marketing timeline for internal team planning that includes tasks, responsible roles, and deadlines.",
+    "images": [
+      "assets/gorseller/gorsel-30.png"
+    ],
+    "answer": "As a project manager, create a marketing timeline for internal team planning that includes tasks, responsible roles, and deadlines.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "As an AI tool helping with this project, add a supplier timeline for internal team planning that includes tasks, responsible roles, and deadlines.",
+      "As the project manager, create a marketing timeline for internal team planning that includes tasks, responsible roles, and deadlines.",
+      "As a barista, generate a supplier timeline for what the internal team should know about the launch timeline.",
+      "As a marketing intern, create a supplier timeline for the internal team with general supplier tasks that might be helpful to know."
+    ],
+    "title": "Role framing",
+    "question": "Now that you’ve added an audience to your prompt, you also know that including a role can help guide the behavior, tone, and perspective of the AI’s response. Which prompt uses role framing most effectively to guide the AI?",
+    "transcribed": true
+  },
+  {
+    "id": "q067",
+    "sourceTurn": 67,
+    "originalQuestion": "A student types a paragraph into an online AI chat tool and asks, “Can you simplify this for a younger audience?” The tool quickly returns a rewritten version.\nWhich common AI interface does this scenario depict?\nRecommendation systems\nChatbots\nVoice assistants\nText-based AI interfaces",
+    "originalAnswer": "Chatbots",
+    "images": [],
+    "answer": "Recommendations",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Which common AI interface does this scenario depict?",
+      "Recommendation systems",
+      "Chatbots",
+      "Voice assistants",
+      "Text-based AI interfaces"
+    ],
+    "question": "A student types a paragraph into an online AI chat tool and asks, “Can you simplify this for a younger audience?” The tool quickly returns a rewritten version.",
+    "title": "Simplifying a paragraph",
+    "correction": {
+      "sourceTurn": 68,
+      "request": "recomandations olacaktı düzelt (eng)",
+      "answer": "Recommendations",
+      "previousAnswer": "Chatbots"
+    }
+  },
+  {
+    "id": "q069",
+    "sourceTurn": 69,
+    "originalQuestion": "A hiring manager notices that their resume-screening AI scores applicants from one region lower than those from other regions, even though all applicants have similar experience and skills.\nWhat pillar of AI ethics does this represent?\nExplainability\nTransparency\nRobustness\nPrivacy\nFairness",
+    "originalAnswer": "Fairness",
+    "images": [],
+    "answer": "Fairness",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Explainability",
+      "Transparency",
+      "Robustness",
+      "Privacy",
+      "Fairness"
+    ],
+    "question": "A hiring manager notices that their resume-screening AI scores applicants from one region lower than those from other regions, even though all applicants have similar experience and skills.\nWhat pillar of AI ethics does this represent?",
+    "title": "Fairness in résumé screening"
+  },
+  {
+    "id": "q070",
+    "sourceTurn": 70,
+    "originalQuestion": "You upload a lengthy technical report to an AI assistant and quickly receive a one-page summary that you asked the assistant for.\nWhat AI capability does this situation represent?\nPerception\nLanguage\nDecision making",
+    "originalAnswer": "Language",
+    "images": [],
+    "answer": "Language",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Perception",
+      "Language",
+      "Decision making"
+    ],
+    "question": "You upload a lengthy technical report to an AI assistant and quickly receive a one-page summary that you asked the assistant for.\nWhat AI capability does this situation represent?",
+    "title": "Summarizing a technical report"
+  },
+  {
+    "id": "q071",
+    "sourceTurn": 71,
+    "originalQuestion": "A student asks an AI chatbot to provide them with journal article recommendations for a paper they’re writing. The student is pleased with the list of articles, but later discovers none of them are real.\nWhat AI limitation does this situation represent?\nMisunderstood AI output\nGaps in training data\nAI hallucination risks\nBias in AI systems",
+    "originalAnswer": "AI hallucination risks",
+    "images": [],
+    "answer": "AI hallucination risks",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Misunderstood AI output",
+      "Gaps in training data",
+      "AI hallucination risks",
+      "Bias in AI systems"
+    ],
+    "question": "A student asks an AI chatbot to provide them with journal article recommendations for a paper they’re writing. The student is pleased with the list of articles, but later discovers none of them are real.\nWhat AI limitation does this situation represent?",
+    "title": "Invented journal articles"
+  },
+  {
+    "id": "q072",
+    "sourceTurn": 72,
+    "originalQuestion": "A hospital’s control dashboard displays thousands of sensor readings, making it challenging for humans to identify equipment failures in a timely manner.\nWhich limit of human reasoning does this represent?\nInformation overload\nInconsistent judgment\nDecision fatigue",
+    "originalAnswer": "Information overload",
+    "images": [],
+    "answer": "Information overload",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Information overload",
+      "Inconsistent judgment",
+      "Decision fatigue"
+    ],
+    "question": "A hospital’s control dashboard displays thousands of sensor readings, making it challenging for humans to identify equipment failures in a timely manner.\nWhich limit of human reasoning does this represent?",
+    "title": "An overloaded dashboard"
+  },
+  {
+    "id": "q073",
+    "sourceTurn": 73,
+    "originalQuestion": "A retailer compares two years of holiday sales but can’t identify whether unusual weather or viral trends drove a spike in sales.\nWhich data challenge does this represent?\nMissing context\nUncertain outcomes\nInconsistent structure",
+    "originalAnswer": "Missing context",
+    "images": [],
+    "answer": "Inconsistent structure",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Missing context",
+      "Uncertain outcomes",
+      "Inconsistent structure"
+    ],
+    "question": "A retailer compares two years of holiday sales but can’t identify whether unusual weather or viral trends drove a spike in sales.\nWhich data challenge does this represent?",
+    "title": "Understanding a sales spike",
+    "correction": {
+      "sourceTurn": 74,
+      "request": "Inconsistent structure olacaktı düzelt (eng)",
+      "answer": "Inconsistent structure",
+      "previousAnswer": "Missing context"
+    }
+  },
+  {
+    "id": "q075",
+    "sourceTurn": 75,
+    "originalQuestion": "An art gallery owner needs a marketing plan to help introduce a new artist and the new artist’s works.\nHow can the owner use an AI assistant to create a plan?\nAsk the AI assistant to generate high-resolution images of the new artist’s works for an online catalog.\nAsk the AI assistant to draft standard purchase and sales agreement templates for the artist and buyers.\nAsk the AI assistant to summarize art trends and use them to inform and guide gallery events.\nAsk the AI assistant for a solution that includes social posts, email copy, event ideas, and success metrics.",
+    "originalAnswer": "Ask the AI assistant for a solution that includes social posts, email copy, event ideas, and success metrics.",
+    "images": [],
+    "answer": "Ask the AI assistant for a solution that includes social posts, email copy, event ideas, and success metrics.",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Ask the AI assistant to generate high-resolution images of the new artist’s works for an online catalog.",
+      "Ask the AI assistant to draft standard purchase and sales agreement templates for the artist and buyers.",
+      "Ask the AI assistant to summarize art trends and use them to inform and guide gallery events.",
+      "Ask the AI assistant for a solution that includes social posts, email copy, event ideas, and success metrics."
+    ],
+    "question": "An art gallery owner needs a marketing plan to help introduce a new artist and the new artist’s works.\nHow can the owner use an AI assistant to create a plan?",
+    "title": "An art gallery marketing plan"
+  },
+  {
+    "id": "q076",
+    "sourceTurn": 76,
+    "originalQuestion": "An AI-powered note-taking app requires microphone access to transcribe meetings. It also needs access to your photos and contacts. You allow the AI to access your microphone but block access to photos and contacts.\nWhich aspect of informed decision making does this scenario represent?\nData privacy practices\nConsent and permissions\nResponsible AI use\nSUBMIT",
+    "originalAnswer": "Consent and permissions",
+    "images": [],
+    "answer": "Consent and permissions",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Data privacy practices",
+      "Consent and permissions",
+      "Responsible AI use"
+    ],
+    "question": "An AI-powered note-taking app requires microphone access to transcribe meetings. It also needs access to your photos and contacts. You allow the AI to access your microphone but block access to photos and contacts.\nWhich aspect of informed decision making does this scenario represent?",
+    "title": "Choosing app permissions"
+  },
+  {
+    "id": "q077",
+    "sourceTurn": 77,
+    "originalQuestion": "A homeowner says, “It’s getting a little warm in here. Please lower the thermostat temperature to 68 degrees.” Then, the air conditioner begins to blow cool air.\nWhich common AI interface does this scenario depict?\nRecommendation systems\nVoice assistants\nText-based AI interfaces\nChatbots",
+    "originalAnswer": "Voice assistants",
+    "images": [],
+    "answer": "Voice assistants",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Recommendation systems",
+      "Voice assistants",
+      "Text-based AI interfaces",
+      "Chatbots"
+    ],
+    "question": "A homeowner says, “It’s getting a little warm in here. Please lower the thermostat temperature to 68 degrees.” Then, the air conditioner begins to blow cool air.\nWhich common AI interface does this scenario depict?",
+    "title": "Changing the thermostat"
+  },
+  {
+    "id": "q078",
+    "sourceTurn": 78,
+    "originalQuestion": "A city’s street department receives hundreds of reports, including photos, about potholes each week. The city wants to repair the worst potholes first.\nHow can AI enhance a solution for the city?\nAutomating reports to prioritize needs based on photo and location data analysis\nAutomating responses to residents who submitted pothole reports\nForecasting next year’s pothole locations and counts for budgeting purposes\nMonitoring routes for pothole repair crews to help ensure they stay on schedule\nSUBMIT",
+    "originalAnswer": "Automating reports to prioritize needs based on photo and location data analysis",
+    "images": [],
+    "answer": "Automating reports to prioritize needs based on photo and location data analysis",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Automating reports to prioritize needs based on photo and location data analysis",
+      "Automating responses to residents who submitted pothole reports",
+      "Forecasting next year’s pothole locations and counts for budgeting purposes",
+      "Monitoring routes for pothole repair crews to help ensure they stay on schedule"
+    ],
+    "question": "A city’s street department receives hundreds of reports, including photos, about potholes each week. The city wants to repair the worst potholes first.\nHow can AI enhance a solution for the city?",
+    "title": "Prioritizing pothole repairs"
+  },
+  {
+    "id": "q079",
+    "sourceTurn": 79,
+    "originalQuestion": "To help reduce the frequency of returns, an analyst for a chain of retail stores is studying data on purchase returns. After beginning the study, the analyst discovered that the data collected included the reasons for returns, but the purchase or return locations hadn’t been recorded.\nWhich data challenge is limiting the analyst’s understanding?\nUncertain outcomes\nMissing context\nInconsistent structure",
+    "originalAnswer": "Missing context",
+    "images": [],
+    "answer": "Missing context",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Uncertain outcomes",
+      "Missing context",
+      "Inconsistent structure"
+    ],
+    "question": "To help reduce the frequency of returns, an analyst for a chain of retail stores is studying data on purchase returns. After beginning the study, the analyst discovered that the data collected included the reasons for returns, but the purchase or return locations hadn’t been recorded.\nWhich data challenge is limiting the analyst’s understanding?",
+    "title": "Missing return locations"
+  },
+  {
+    "id": "q080",
+    "sourceTurn": 80,
+    "originalQuestion": "A market research analyst is overwhelmed by survey response data that includes spreadsheets, text documents, and audio formats.\nWhat primary data challenge makes it difficult to transform a variety of formats into actionable insights?\nInconsistent structure\nMissing context\nUncertain outcomes",
+    "originalAnswer": "Inconsistent structure",
+    "images": [],
+    "answer": "Inconsistent structure",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Inconsistent structure",
+      "Missing context",
+      "Uncertain outcomes"
+    ],
+    "question": "A market research analyst is overwhelmed by survey response data that includes spreadsheets, text documents, and audio formats.\nWhat primary data challenge makes it difficult to transform a variety of formats into actionable insights?",
+    "title": "Survey data in different formats"
+  },
+  {
+    "id": "q081",
+    "sourceTurn": 81,
+    "originalQuestion": "A student uses AI to translate an article into Spanish and then summarize it.\nWhat type of AI tool does this describe?\nA consumer AI tool that automates routine tasks to support the student’s daily life\nA consumer AI tool that detects language and rephrases content using rule-based logic\nA consumer AI tool that generates and transforms language using learned patterns from data\nA consumer AI tool that retrieves relevant information from the web",
+    "originalAnswer": "A consumer AI tool that generates and transforms language using learned patterns from data",
+    "images": [],
+    "answer": "A consumer AI tool that generates and transforms language using learned patterns from data",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "A consumer AI tool that automates routine tasks to support the student’s daily life",
+      "A consumer AI tool that detects language and rephrases content using rule-based logic",
+      "A consumer AI tool that generates and transforms language using learned patterns from data",
+      "A consumer AI tool that retrieves relevant information from the web"
+    ],
+    "question": "A student uses AI to translate an article into Spanish and then summarize it.\nWhat type of AI tool does this describe?",
+    "title": "Translation and summarization"
+  },
+  {
+    "id": "q082",
+    "sourceTurn": 82,
+    "originalQuestion": "Before launching an AI résumé screening tool, a hiring manager checks the model for bias and confirms it is working as intended and shows no signs of bias.\nWhich aspect of informed decision making does this scenario represent?\nData privacy practices\nConsent and permissions\nResponsible AI use\nSUBMIT",
+    "originalAnswer": "Responsible AI use",
+    "images": [],
+    "answer": "Responsible AI use",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Data privacy practices",
+      "Consent and permissions",
+      "Responsible AI use"
+    ],
+    "question": "Before launching an AI résumé screening tool, a hiring manager checks the model for bias and confirms it is working as intended and shows no signs of bias.\nWhich aspect of informed decision making does this scenario represent?",
+    "title": "Checking AI before launch"
+  },
+  {
+    "id": "q083",
+    "sourceTurn": 83,
+    "originalQuestion": "A healthcare company trains its online AI symptom checker to save patient chat logs in an encrypted database and delete personally identifiable information.\nWhich aspect of informed decision making does this scenario represent?\nConsent and permissions\nData privacy practices\nResponsible AI use",
+    "originalAnswer": "Data privacy practices",
+    "images": [],
+    "answer": "Data privacy practices",
+    "kind": "Çoktan seçmeli",
+    "items": [],
+    "options": [
+      "Consent and permissions",
+      "Data privacy practices",
+      "Responsible AI use"
+    ],
+    "question": "A healthcare company trains its online AI symptom checker to save patient chat logs in an encrypted database and delete personally identifiable information.\nWhich aspect of informed decision making does this scenario represent?",
+    "title": "Protecting patient chat logs"
+  }
+]

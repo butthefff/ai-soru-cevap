@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Sohbet sırasıyla, görselleri ve cevaplarıyla 77 yapay zekâ sorusu.">
+  <meta name="theme-color" content="#214c40"><title>AI Study — Soru & Cevap</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#1"><span class="brand-icon">ai<span>✦</span></span><span>AI <strong>Study</strong></span></a><span class="top-caption">Kişisel çalışma koleksiyonun</span><a class="source-link" href="https://share.gemini.google/t3WIXPAvfga1" target="_blank" rel="noopener">Kaynak sohbet ↗</a></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">YAPAY ZEKÂ · SORU & CEVAP</p><h1>Bir soru. Bir adım ileri.</h1><p class="lead">Bütün soruların, görsellerin ve eşleştirmelerin. Tam konuştuğun sırayla.</p></div><div class="collection-stats"><strong id="total">77</strong><span>soru</span><span class="stat-divider"></span><strong>30</strong><span>görsel</span></div></section>
+    <section class="toolbar" aria-label="Çalışma araçları"><div class="tabs"><button id="studyTab" class="active" aria-pressed="true">Sorular</button><button id="archiveTab" aria-pressed="false">Tam sohbet <span>86</span></button></div><div class="tools"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Soru veya cevap ara…" aria-label="Soru veya cevap ara"></label><button id="toggleAnswer" class="quiet" aria-pressed="false">Cevabı gizle</button></div></section>
+    <div class="workspace"><aside><div class="list-heading"><span>KOLEKSİYON</span><span id="resultCount">77 soru</span></div><nav id="questionList" aria-label="Soru listesi"></nav></aside>
+      <div class="study-area"><div class="progress-row"><span id="position">SORU 01 / 77</span><span id="type" class="badge">Eşleştirme</span></div><div class="progress-track"><div id="progressBar"></div></div>
+        <section id="empty" hidden><h2>Sonuç bulunamadı.</h2><p>Başka bir kelimeyle aramayı dene.</p></section>
+        <div id="cardLayout" class="card-layout"><article class="question-card"><div class="card-label"><span class="number-icon">?</span><span>SORU</span><span id="sourceOrder"></span></div><h2 id="questionTitle" tabindex="-1"></h2><div id="questionText" class="question-text" lang="en"></div><div id="questionItems"></div><ol id="options" class="options" lang="en"></ol><div id="images" class="images"></div></article>
+          <article class="answer-card"><div class="card-label"><span class="answer-icon">✓</span><span>SOHBETTEKİ CEVAP</span></div><div id="answerContent" class="answer-content" lang="en"></div><div id="hiddenAnswer" hidden><p>Önce kendin düşün.</p><button id="revealAnswer">Cevabı göster</button></div><div id="correction"></div><details id="original"><summary>İlk yanıtı ve düzeltme notunu gör</summary><div id="originalContent"></div></details><p class="answer-footnote">Yanıtlar kaynak sohbetten alınmıştır. Düzeltmeler, sohbetteki son yanıta göre gösterilir.</p></article></div>
+        <div class="navigation"><button id="prev" class="secondary">← Önceki</button><div class="jump"><input id="jump" type="number" min="1" value="1" aria-label="Soru numarasına git"><span id="jumpTotal">/ 77</span><button id="go" aria-label="Girilen numaraya git">Git</button></div><button id="next" class="primary">Next · Sonraki →</button></div><p id="completion" class="completion" hidden>Son soruya ulaştın. Koleksiyonun tamamını gezdin. ✦</p><p class="keyboard-tip">← → ile ilerle · Boşluk ile cevabı göster / gizle</p>
+      </div></div>
+    <footer><span>AI Study <span class="footer-dot">✦</span> Her adımda biraz daha net.</span><span id="footerStats">77 soru · 8 eşleştirme · 1 sıralama</span></footer>
+  </main>
+  <dialog id="imageDialog"><button id="closeImage" aria-label="Görseli kapat">×</button><img id="largeImage" alt="Sorunun orijinal görseli"><p>Orijinal soru görseli</p></dialog>
+  <noscript>Bu siteyi kullanabilmek için tarayıcında JavaScript’i etkinleştir.</noscript>
+</body></html>
