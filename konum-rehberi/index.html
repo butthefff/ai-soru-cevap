@@ -45,8 +45,10 @@ h1{font-size:clamp(28px,6vw,40px);line-height:1.15;letter-spacing:-1px;margin:0 
 .picker{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px}
 .picker p{margin:0 0 10px;font-weight:600}
 .seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.seg button{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 10px;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-weight:600;cursor:pointer}
-.seg button[aria-pressed="true"]{border-color:var(--green);background:var(--soft);color:var(--green)}
+.seg label{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 10px;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-weight:600;cursor:pointer}
+#p-mobile:checked~main .opt-mobile,#p-desktop:checked~main .opt-desktop{border-color:var(--green);background:var(--soft);color:var(--green)}
+#p-mobile:focus-visible~main .opt-mobile,#p-desktop:focus-visible~main .opt-desktop{outline:3px solid var(--green);outline-offset:3px}
+.sr{position:absolute;opacity:0;width:1px;height:1px;margin:0;pointer-events:none}
 .seg svg{width:22px;height:22px;flex:none}
 .toc{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;padding:0;list-style:none}
 .toc a{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--paper);border:1px solid var(--line);text-decoration:none;font-size:15px;color:var(--ink)}
@@ -60,8 +62,8 @@ h3{font-size:19px;margin:26px 0 10px}
 ol.steps{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:s}
 ol.steps>li{counter-increment:s;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 14px 14px 62px;position:relative}
 ol.steps>li::before{content:counter(s);position:absolute;left:14px;top:14px;width:34px;height:34px;border-radius:50%;background:var(--soft);color:var(--green);display:grid;place-items:center;font-weight:800}
-ol.steps>li.done{opacity:.6}
-ol.steps>li.done::before{content:"✓";background:var(--green);color:var(--on-accent)}
+ol.steps>li.done,ol.steps>li:has(>.check:checked){opacity:.6}
+ol.steps>li.done::before,ol.steps>li:has(>.check:checked)::before{content:"✓";background:var(--green);color:var(--on-accent)}
 .step-title{font-weight:650;margin:0 0 4px;padding-right:44px}
 .step-body{margin:0;color:var(--ink)}
 .step-body p{margin:6px 0 0}
@@ -79,7 +81,7 @@ details{background:var(--paper);border:1px solid var(--line);border-radius:12px;
 details summary{cursor:pointer;font-weight:600}
 details p{margin:8px 0 0}
 .platform-label{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;letter-spacing:1px;color:var(--muted);margin:2px 0 10px}
-body[data-platform="mobile"] .desktop-only,body[data-platform="desktop"] .mobile-only{display:none}
+#p-mobile:checked~main .desktop-only,#p-desktop:checked~main .mobile-only{display:none}
 .progress{font-size:14px;color:var(--muted);margin:0 0 10px}
 footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;color:var(--muted);font-size:14px}
 .reset{background:none;border:0;color:var(--green);text-decoration:underline;font:inherit;cursor:pointer;padding:0}
@@ -87,11 +89,13 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
   body{font-size:16px}
   ol.steps>li{padding:12px 12px 12px 54px}
   ol.steps>li::before{left:11px;top:12px;width:30px;height:30px}
-  .seg button{flex-direction:column;gap:4px;padding:12px 6px}
+  .seg label{flex-direction:column;gap:4px;padding:12px 6px}
 }
 </style>
 </head>
-<body data-platform="mobile">
+<body>
+<input type="radio" name="platform" id="p-mobile" class="sr" checked>
+<input type="radio" name="platform" id="p-desktop" class="sr">
 <header class="top"><div class="wrap">
   <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2C8 2 5 5 5 9c0 5.3 7 13 7 13s7-7.7 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z" fill="#ddecbd"/></svg></span>
   <span class="brand">Dükkan Konum Rehberi</span>
@@ -105,15 +109,15 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
 
     <div class="picker">
       <p>Hangi cihazdan yapacaksınız?</p>
-      <div class="seg" role="group" aria-label="Cihaz seçimi">
-        <button type="button" data-set="mobile" aria-pressed="true">
+      <div class="seg" role="radiogroup" aria-label="Cihaz seçimi">
+        <label for="p-mobile" class="opt-mobile">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
           Telefondan
-        </button>
-        <button type="button" data-set="desktop" aria-pressed="false">
+        </label>
+        <label for="p-desktop" class="opt-desktop">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
           Bilgisayardan
-        </button>
+        </label>
       </div>
     </div>
 
@@ -150,30 +154,30 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
       <span class="platform-label">📱 TELEFONDAN</span>
       <p class="progress" data-progress="g-m"></p>
       <ol class="steps" data-group="g-m">
-        <li><p class="step-title">Google Haritalar uygulamasını açın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Google Haritalar uygulamasını açın</p>
           <div class="step-body">Telefonunuzda yoksa indirin:
             <br><a class="btn" href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener">Android için indir</a><a class="btn ghost" href="https://apps.apple.com/tr/app/google-haritalar/id585027354" target="_blank" rel="noopener">iPhone için indir</a></div></li>
-        <li><p class="step-title">Gmail hesabınızla giriş yapın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Gmail hesabınızla giriş yapın</p>
           <div class="step-body">Sağ üst köşedeki <b>yuvarlak profil resmine</b> dokunun. Gmail adresiniz görünüyorsa tamam. Görünmüyorsa <span class="tap">Oturum aç</span> deyin.</div></li>
-        <li><p class="step-title">"İşletmenizi ekleyin" seçeneğine dokunun</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">"İşletmenizi ekleyin" seçeneğine dokunun</p>
           <div class="step-body">Profil resmine dokunduğunuzda açılan menüde <span class="tap">İşletme Profilinizi ekleyin</span> ya da <span class="tap">İşletmenizi ekleyin</span> yazar.
             <p>Göremiyorsanız telefonun internet tarayıcısında (Chrome / Safari) bu düğmeye basın, aynı ekran açılır:</p>
             <a class="btn" href="https://business.google.com/create" target="_blank" rel="noopener">İşletme ekleme sayfasını aç</a></div></li>
-        <li><p class="step-title">Dükkanın adını yazın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Dükkanın adını yazın</p>
           <div class="step-body">Tabeladaki adı yazın.
             <p>• Aşağıda <b>kendi dükkanınız</b> çıkarsa (biri daha önce eklemiş olabilir) ona dokunun — sahiplenmiş olursunuz.<br>• Çıkmazsa <span class="tap">Devam</span> / <span class="tap">Bu adla işletme oluştur</span> deyin.</p></div></li>
-        <li><p class="step-title">İşletme türünü seçin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">İşletme türünü seçin</p>
           <div class="step-body"><span class="tap">Yerel mağaza</span> veya <span class="tap">Fiziksel konum</span> seçeneğini seçin (ne çıkıyorsa). Sonra kategori yazın: "Kafe", "Kuaför", "Giyim mağazası", "Tamirci" gibi. Listeden size en yakın olanı seçin.</div></li>
-        <li><p class="step-title">"Müşterilerin gelebileceği bir yer eklensin mi?" → Evet</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">"Müşterilerin gelebileceği bir yer eklensin mi?" → Evet</p>
           <div class="step-body">Dükkanınız olduğu için <span class="tap">Evet</span> deyin.</div></li>
-        <li><p class="step-title">Adresi yazın ve iğneyi kapıya koyun</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Adresi yazın ve iğneyi kapıya koyun</p>
           <div class="step-body">Ülke: Türkiye, İl: İzmir, ilçe, mahalle, sokak ve kapı numarasını girin. Sonra açılan haritada <b>kırmızı iğneyi parmağınızla tam dükkanın kapısının üstüne</b> kaydırın.
             <div class="tip">💡 Haritayı iki parmakla büyütürseniz iğneyi daha doğru koyarsınız.</div></div></li>
-        <li><p class="step-title">"Başka yerlere de hizmet veriyor musunuz?"</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">"Başka yerlere de hizmet veriyor musunuz?"</p>
           <div class="step-body">Eve servis / adrese gitme yoksa <span class="tap">Hayır</span> deyin. Varsa <span class="tap">Evet</span> deyip hizmet verdiğiniz ilçeleri yazın (ör. Bornova, Karşıyaka).</div></li>
-        <li><p class="step-title">Telefon numarası ve web sitesi</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Telefon numarası ve web sitesi</p>
           <div class="step-body">Dükkanın telefonunu yazın. Web siteniz yoksa <span class="tap">Web sitem yok</span> seçin — sorun değil. Bildirim/reklam sorularını <span class="tap">Atla</span> ile geçebilirsiniz.</div></li>
-        <li><p class="step-title">Doğrulama: "Bu dükkan gerçekten sizin" deyin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Doğrulama: "Bu dükkan gerçekten sizin" deyin</p>
           <div class="step-body">Google size bir yöntem sunar. Hangisi çıkarsa onu yapın:
             <p><b>🎥 Video ile (en sık çıkan):</b> Kesmeden <b>tek bir video</b> çekin, yaklaşık 1 dakika:<br>
             1) Dışarıdan sokak tabelası / yakındaki dükkanlar,<br>
@@ -183,7 +187,7 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
             <p><b>📞 SMS / telefon ile:</b> Gelen kodu yazın, bitti.</p>
             <p><b>📧 E-posta ile:</b> Gelen e-postadaki kodu yazın.</p>
             <div class="note">Onay genelde birkaç gün sürer (bazen 1–2 hafta). Bu sürede profili tekrar tekrar düzenlemeyin; onayı geciktirir.</div></div></li>
-        <li><p class="step-title">Saatleri ve fotoğrafları ekleyin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Saatleri ve fotoğrafları ekleyin</p>
           <div class="step-body">Haritalar uygulamasında profil resmi → <span class="tap">İşletme Profiliniz</span> → <span class="tap">Profili düzenle</span>. Buradan çalışma saatlerini girin ve <span class="tap">Fotoğraf ekle</span> ile tabela, iç mekân ve ürün fotoğraflarını yükleyin. Fotoğraflı profiller çok daha fazla tıklanır.</div></li>
       </ol>
     </div>
@@ -192,26 +196,26 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
       <span class="platform-label">💻 BİLGİSAYARDAN</span>
       <p class="progress" data-progress="g-d"></p>
       <ol class="steps" data-group="g-d">
-        <li><p class="step-title">İşletme ekleme sayfasını açın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">İşletme ekleme sayfasını açın</p>
           <div class="step-body"><a class="btn" href="https://business.google.com/create" target="_blank" rel="noopener">business.google.com/create</a>
             <p>Gmail adresiniz ve şifrenizle giriş yapın.</p></div></li>
-        <li><p class="step-title">Dükkanın adını yazın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Dükkanın adını yazın</p>
           <div class="step-body">Tabeladaki adı yazın. Listede kendi dükkanınız çıkarsa onu seçin; çıkmazsa <span class="tap">Bu adla işletme oluştur</span>.</div></li>
-        <li><p class="step-title">Türü ve kategoriyi seçin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Türü ve kategoriyi seçin</p>
           <div class="step-body"><span class="tap">Yerel mağaza</span> / <span class="tap">Fiziksel konum</span> seçin. Kategoriye "Kafe", "Kuaför", "Giyim mağazası" gibi işinizi yazın ve listeden seçin. <span class="tap">İleri</span>.</div></li>
-        <li><p class="step-title">"Müşterilerin ziyaret edebileceği bir yer eklensin mi?" → Evet</p></li>
-        <li><p class="step-title">Adresi girin, haritada iğneyi düzeltin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">"Müşterilerin ziyaret edebileceği bir yer eklensin mi?" → Evet</p></li>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Adresi girin, haritada iğneyi düzeltin</p>
           <div class="step-body">Türkiye · İzmir · ilçe · mahalle · sokak · kapı no. Ardından çıkan haritada iğneyi fareyle tutup <b>dükkanın kapısının tam üstüne</b> sürükleyin.</div></li>
-        <li><p class="step-title">Hizmet bölgesi sorusu</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Hizmet bölgesi sorusu</p>
           <div class="step-body">Eve servis yoksa <span class="tap">Hayır</span>. Varsa hizmet verdiğiniz ilçeleri ekleyin.</div></li>
-        <li><p class="step-title">Telefon ve web sitesi</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Telefon ve web sitesi</p>
           <div class="step-body">Telefonu yazın. Site yoksa <span class="tap">Web sitem yok</span>. Diğer soruları <span class="tap">Atla</span> ile geçebilirsiniz.</div></li>
-        <li><p class="step-title">Doğrulama</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Doğrulama</p>
           <div class="step-body">Google'ın sunduğu yöntemi seçin:
             <p><b>🎥 Video:</b> Bilgisayarda video çekmek zor olduğu için Google genelde bir <b>QR kod veya bağlantı</b> verir. Telefonun kamerasıyla QR'ı okutun, videoyu telefondan çekin: önce sokak ve tabela, sonra anahtarla kapıyı açıp içeriyi, ürünleri ve kasayı gösterin. Kesintisiz tek video, yaklaşık 1 dakika.</p>
             <p><b>📞 SMS/telefon</b> veya <b>📧 e-posta:</b> Gelen kodu yazın.</p>
             <div class="note">Onay genelde birkaç gün sürer. Beklerken bilgileri değiştirmeyin.</div></div></li>
-        <li><p class="step-title">Saatleri ve fotoğrafları ekleyin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Saatleri ve fotoğrafları ekleyin</p>
           <div class="step-body">Google'da dükkanınızın adını aratın; aynı Gmail ile girişliyken arama sonucunun üstünde yönetim paneli çıkar. <span class="tap">Profili düzenle</span> → saatler. <span class="tap">Fotoğraf ekle</span> → tabela, iç mekân, ürünler.
             <br><a class="btn ghost" href="https://business.google.com/locations" target="_blank" rel="noopener">İşletmelerimi aç</a></div></li>
       </ol>
@@ -232,13 +236,13 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
       <p class="progress" data-progress="i-m"></p>
       <h3>A · Profilinize adres ekleyin</h3>
       <ol class="steps" data-group="i-m">
-        <li><p class="step-title">Instagram'ı açın, dükkanın hesabına girin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Instagram'ı açın, dükkanın hesabına girin</p>
           <div class="step-body">Dükkan için ayrı bir hesabınız yoksa önce yeni hesap açın (profil → üstteki kullanıcı adınız → <span class="tap">Hesap ekle</span>).
             <br><a class="btn" href="https://play.google.com/store/apps/details?id=com.instagram.android" target="_blank" rel="noopener">Android için indir</a><a class="btn ghost" href="https://apps.apple.com/tr/app/instagram/id389801252" target="_blank" rel="noopener">iPhone için indir</a></div></li>
-        <li><p class="step-title">Hesabı "İşletme" hesabına çevirin (ücretsiz)</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Hesabı "İşletme" hesabına çevirin (ücretsiz)</p>
           <div class="step-body">Sağ alttaki profil resminize dokunun → sağ üstteki <b>☰ üç çizgi</b> → aşağı kaydırıp <span class="tap">Hesap türü ve araçlar</span> → <span class="tap">Profesyonel hesaba geç</span>.
             <p>Kategori seçin (ör. "Giyim Mağazası"), ardından <span class="tap">İşletme</span> seçin. Takipçileriniz ve paylaşımlarınız silinmez.</p></div></li>
-        <li><p class="step-title">Adresi yazın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Adresi yazın</p>
           <div class="step-body">Profilinizde <span class="tap">Profili düzenle</span> → <span class="tap">İletişim seçenekleri</span> (bazı telefonlarda "Herkese açık işletme bilgileri" başlığı altında) → <span class="tap">İşletme adresi</span>.
             <p>Sokak, kapı no, şehir: İzmir, posta kodu yazın → sağ üstteki <span class="tap">✓</span> / <span class="tap">Kaydet</span>.</p>
             <div class="tip">💡 Aynı yerde "Profilde göster" açık olsun. Artık profilinizde adres ve <b>Yol tarifi</b> düğmesi görünür.</div></div></li>
@@ -247,18 +251,18 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
       <h3>B · Paylaşımlarda "konum" olarak çıksın</h3>
       <div class="tip">Instagram konumları <b>Facebook</b>'tan alır. Dükkanınız için bir Facebook Sayfası açıp adresini yazdığınızda, birkaç gün içinde Instagram'da da konum olarak çıkar.</div>
       <ol class="steps" data-group="i-m2">
-        <li><p class="step-title">Önce deneyin: belki zaten vardır</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Önce deneyin: belki zaten vardır</p>
           <div class="step-body">Instagram'da yeni gönderi hazırlayın → paylaşmadan önceki ekranda <span class="tap">Konum ekle</span> → dükkanınızın adını yazın. Çıkıyorsa B adımları gerekmez, gönderiyi silmeden çıkabilirsiniz.</div></li>
-        <li><p class="step-title">Facebook uygulamasında Sayfa açın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Facebook uygulamasında Sayfa açın</p>
           <div class="step-body">Facebook uygulaması → <b>☰ Menü</b> → <span class="tap">Sayfalar</span> → <span class="tap">Oluştur</span>. Sayfa adına dükkanın adını aynen yazın, kategori seçin.
             <br><a class="btn" href="https://www.facebook.com/pages/create" target="_blank" rel="noopener">Sayfa oluştur bağlantısı</a></div></li>
-        <li><p class="step-title">Sayfaya adresi ekleyin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Sayfaya adresi ekleyin</p>
           <div class="step-body">Kurulum sırasında adres soruluyorsa orada yazın. Sorulmadıysa: Sayfanızda <span class="tap">Sayfayı düzenle</span> / <span class="tap">Ayrıntıları düzenle</span> → <span class="tap">Konum</span> veya <span class="tap">Adres</span> → adresi yazın ve <b>"Ziyaretçiler bu adreste konum işaretleyebilir"</b> seçeneği varsa açın.</div></li>
-        <li><p class="step-title">Instagram'ı bu sayfaya bağlayın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Instagram'ı bu sayfaya bağlayın</p>
           <div class="step-body">Instagram → <span class="tap">Profili düzenle</span> → <span class="tap">Sayfa</span> (veya "Facebook Sayfası") → az önce açtığınız sayfayı seçin.
             <p>Bu seçeneği görmezseniz: <b>☰</b> → <span class="tap">Hesaplar Merkezi</span> → <span class="tap">Hesap ekle</span> → Facebook.</p>
             <a class="btn ghost" href="https://accountscenter.instagram.com/" target="_blank" rel="noopener">Hesaplar Merkezi</a></div></li>
-        <li><p class="step-title">1–7 gün bekleyin, sonra tekrar deneyin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">1–7 gün bekleyin, sonra tekrar deneyin</p>
           <div class="step-body">Yeni gönderide <span class="tap">Konum ekle</span> → dükkan adı. Çıktığında artık siz de müşterileriniz de dükkanınızı etiketleyebilir.</div></li>
       </ol>
     </div>
@@ -269,11 +273,11 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
       <p class="progress" data-progress="i-d"></p>
       <h3>A · Profilinize adres ekleyin</h3>
       <ol class="steps" data-group="i-d">
-        <li><p class="step-title">Instagram'a girin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Instagram'a girin</p>
           <div class="step-body"><a class="btn" href="https://www.instagram.com/" target="_blank" rel="noopener">instagram.com</a><p>Dükkanın hesabıyla giriş yapın.</p></div></li>
-        <li><p class="step-title">İşletme hesabına geçin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">İşletme hesabına geçin</p>
           <div class="step-body">Sol alttaki <b>☰ Daha fazla</b> → <span class="tap">Ayarlar</span> → <span class="tap">Hesap türü ve araçlar</span> → <span class="tap">Profesyonel hesaba geç</span> → kategori → <span class="tap">İşletme</span>.</div></li>
-        <li><p class="step-title">Adresi ekleyin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Adresi ekleyin</p>
           <div class="step-body"><a class="btn ghost" href="https://www.instagram.com/accounts/edit/" target="_blank" rel="noopener">Profili düzenle sayfası</a>
             <p>Burada "İletişim seçenekleri / İşletme adresi" görüyorsanız adresi yazıp kaydedin. Görmüyorsanız bu adımı telefondan yapın.</p></div></li>
       </ol>
@@ -281,15 +285,15 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
       <h3>B · Paylaşımlarda "konum" olarak çıksın</h3>
       <div class="tip">Instagram konumları <b>Facebook</b>'tan alır. Dükkanınız için bir Facebook Sayfası açıp adresini yazdığınızda, birkaç gün içinde Instagram'da da konum olarak çıkar.</div>
       <ol class="steps" data-group="i-d2">
-        <li><p class="step-title">Facebook Sayfası açın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Facebook Sayfası açın</p>
           <div class="step-body"><a class="btn" href="https://www.facebook.com/pages/create" target="_blank" rel="noopener">facebook.com/pages/create</a>
             <p>Sayfa adı: dükkanın adı (tabeladaki gibi). Kategori seçin → <span class="tap">Sayfa oluştur</span>.</p></div></li>
-        <li><p class="step-title">Adres ve saatleri yazın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Adres ve saatleri yazın</p>
           <div class="step-body">Kurulumun "Bilgileri tamamla" adımında <b>Konum / Adres</b> alanına açık adresi, ardından çalışma saatlerini yazın. Atladıysanız sayfanızda <span class="tap">Sayfayı düzenle</span> → <span class="tap">Konum</span>'dan ekleyebilirsiniz.</div></li>
-        <li><p class="step-title">Instagram'ı Facebook Sayfasına bağlayın</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Instagram'ı Facebook Sayfasına bağlayın</p>
           <div class="step-body"><a class="btn" href="https://business.facebook.com/" target="_blank" rel="noopener">Meta Business Suite</a>
             <p>Açılan sayfada sol menü → <span class="tap">Ayarlar</span> → <span class="tap">Instagram hesabı</span> → <span class="tap">Bağla</span> → Instagram kullanıcı adı ve şifrenizi girin.</p></div></li>
-        <li><p class="step-title">1–7 gün bekleyin, sonra kontrol edin</p>
+        <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">1–7 gün bekleyin, sonra kontrol edin</p>
           <div class="step-body">Telefondan Instagram'da yeni gönderi → <span class="tap">Konum ekle</span> → dükkan adı. Çıkıyorsa tamam 🎉</div></li>
       </ol>
     </div>
@@ -300,15 +304,15 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
     <div class="part-head"><span class="badge p">4</span><h2>Son dokunuşlar (çok işe yarar)</h2></div>
     <p class="sub">Google ile Instagram'ı birbirine bağlayalım.</p>
     <ol class="steps" data-group="son">
-      <li><p class="step-title">Google harita bağlantınızı alın</p>
+      <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Google harita bağlantınızı alın</p>
         <div class="step-body">
           <span class="mobile-only">Google Haritalar'da dükkanınızı açın → <span class="tap">Paylaş</span> → <span class="tap">Kopyala</span>.</span>
           <span class="desktop-only">Google Haritalar'da dükkanınıza tıklayın → <span class="tap">Paylaş</span> → <span class="tap">Bağlantıyı kopyala</span>.</span></div></li>
-      <li><p class="step-title">Bu bağlantıyı Instagram'a koyun</p>
+      <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Bu bağlantıyı Instagram'a koyun</p>
         <div class="step-body">Instagram → <span class="tap">Profili düzenle</span> → <span class="tap">Bağlantılar</span> → <span class="tap">Harici bağlantı ekle</span> → yapıştırın, başlığa "📍 Yol tarifi" yazın.</div></li>
-      <li><p class="step-title">Instagram adresinizi Google'a ekleyin</p>
+      <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Instagram adresinizi Google'a ekleyin</p>
         <div class="step-body">Google İşletme Profiliniz → <span class="tap">Profili düzenle</span> → <span class="tap">İletişim</span> → <span class="tap">Sosyal profiller</span> → Instagram → profil bağlantınız (ör. instagram.com/dukkanadi).</div></li>
-      <li><p class="step-title">Müşterilerden yorum isteyin</p>
+      <li><input type="checkbox" class="check" aria-label="Bu adımı tamamladım"><p class="step-title">Müşterilerden yorum isteyin</p>
         <div class="step-body">Google İşletme Profiliniz → <span class="tap">Yorum isteyin</span> / <span class="tap">Yorum al</span> → bağlantıyı kopyalayın. Bunu Instagram hikâyenizde paylaşın, kasaya QR olarak asın. Yorumu çok olan dükkan haritada üstte çıkar.</div></li>
     </ol>
   </section>
@@ -342,17 +346,13 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
 (function(){
   var store={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}},del:function(k){try{localStorage.removeItem(k)}catch(e){}}};
 
-  // Cihaz seçimi
-  var buttons=document.querySelectorAll('.seg button');
-  function setPlatform(p){
-    document.body.setAttribute('data-platform',p);
-    buttons.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.set===p))});
-    store.set('konum-platform',p);
-  }
+  // Cihaz seçimi (JS yoksa da çalışır; burada sadece hatırlanır)
+  var radios={mobile:document.getElementById('p-mobile'),desktop:document.getElementById('p-desktop')};
   var saved=store.get('konum-platform');
   var guess=window.matchMedia('(pointer:coarse)').matches?'mobile':'desktop';
-  setPlatform(saved||guess);
-  buttons.forEach(function(b){b.addEventListener('click',function(){setPlatform(b.dataset.set)})});
+  var start=radios[saved]?saved:guess;
+  radios[start].checked=true;
+  Object.keys(radios).forEach(function(k){radios[k].addEventListener('change',function(){if(radios[k].checked)store.set('konum-platform',k)})});
 
   // Adım işaretleme
   var KEY='konum-adimlar';
@@ -370,9 +370,7 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
     var g=ol.dataset.group;
     ol.querySelectorAll(':scope > li').forEach(function(li,i){
       var id=g+'-'+i;
-      var cb=document.createElement('input');
-      cb.type='checkbox';cb.className='check';
-      cb.setAttribute('aria-label',(i+1)+'. adımı tamamladım');
+      var cb=li.querySelector(':scope > .check');
       cb.checked=!!done[id];
       li.classList.toggle('done',cb.checked);
       cb.addEventListener('change',function(){
@@ -381,7 +379,6 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 40px;colo
         store.set(KEY,JSON.stringify(done));
         updateProgress();
       });
-      li.appendChild(cb);
     });
   });
   updateProgress();
